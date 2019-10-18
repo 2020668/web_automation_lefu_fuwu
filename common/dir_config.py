@@ -13,15 +13,15 @@ import os
 # 框架项目顶层目录
 base_dir = os.path.split(os.path.split(os.path.abspath(__file__))[0])[0]
 
-testdatas_dir = os.path.join(base_dir, "TestDatas")
+testdatas_dir = os.path.join(base_dir, "data")
 
-testcases_dir = os.path.join(base_dir, "TestCases")
+testcases_dir = os.path.join(base_dir, "test_cases")
 
-htmlreport_dir = os.path.join(base_dir, "Outputs/reports")
+htmlreport_dir = os.path.join(base_dir, "outputs/reports")
 
-logs_dir = os.path.join(base_dir, "Outputs/logs")
+logs_dir = os.path.join(base_dir, "outputs/logs")
 
 # config_dir =  os.path.join(base_dir,"Config")
 
-screenshot_dir = os.path.join(base_dir, "Outputs/imgs")
+screenshot_dir = os.path.join(base_dir, "outputs/imgs")
 print(screenshot_dir)

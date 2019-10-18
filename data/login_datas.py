@@ -19,4 +19,4 @@ invalid_datas = [
 ]
 
 # 密码错误 /手机号未注册
-invalid_2_datas = []
+invalid_2_data = []

@@ -12,9 +12,9 @@ E-mail:keen2020@outlook.com
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 
-from PageLocators.indexPage_locator import IndexPageLocator as loc
+from page_locators.indexPage_locator import IndexPageLocator as Loc
 
 
 class IndexPage:
@@ -26,7 +26,7 @@ class IndexPage:
 
     def check_username_exists(self):
         try:
-            WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(self.user_loc))
+            WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located(self.user_loc))
             return True
         except:
             return False
@@ -34,12 +34,12 @@ class IndexPage:
     # 获取标名 - 第一个标
     def get_bid_name(self):
         # 等待
-        WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(loc.bid_name))
-        return self.driver.find_element(*loc.bid_name).text
+        WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located(Loc.bid_name))
+        return self.driver.find_element(*Loc.bid_name).text
 
     # 点击第一个标的抢投标按钮
     def click_first_bid(self):
         # 等待
-        WebDriverWait(self.driver,20).until(EC.visibility_of_element_located(loc.bid_button))
-        self.driver.find_element(*loc.bid_button).click()
+        WebDriverWait(self.driver,20).until(ec.visibility_of_element_located(Loc.bid_button))
+        self.driver.find_element(*Loc.bid_button).click()
         return self

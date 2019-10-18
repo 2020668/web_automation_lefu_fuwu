@@ -9,10 +9,11 @@ E-mail:keen2020@outlook.com
 """
 
 # 服务器
-base_url = "http://120.78.128.25:8765"
-# 登陆地址
-login_url = base_url + "/Index/login.html"
+base_url = "http://api.test-agent.hczypay.com"
+
+# 登录地址
+login_url = base_url + "/login"
 
 # 全局共用的帐号和密码
-user = "18684720553"
-passwd = "python"
+user = "18327787716"
+pwd = "123456"

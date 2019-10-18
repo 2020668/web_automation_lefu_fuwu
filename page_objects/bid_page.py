@@ -13,10 +13,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from PageLocators.bidPage_locator import BidPageLocator as loc
+from page_locators.bidPage_locator import BidPageLocator as loc
 
 
-class BidPage:
+class BidPage(object):
 
     def __init__(self, driver: WebDriver):
         self.driver = driver
