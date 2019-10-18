@@ -1,8 +1,12 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: Common_Datas
-# Author: 简
-# Time: 2019/8/2
+"""
+=================================
+Author: keen
+Created on: 2019/10/18
+E-mail:keen2020@outlook.com
+=================================
+
+"""
 
 # 服务器
 base_url = "http://120.78.128.25:8765"

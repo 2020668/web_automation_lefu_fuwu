@@ -1,9 +1,15 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: login_page_locator
-# Author: 简
-# Time: 2019/8/2
+"""
+=================================
+Author: keen
+Created on: 2019/10/18
+E-mail:keen2020@outlook.com
+=================================
+
+"""
+
 from selenium.webdriver.common.by import By
+
 
 class LoginPageLocator:
     # 用户名输入框

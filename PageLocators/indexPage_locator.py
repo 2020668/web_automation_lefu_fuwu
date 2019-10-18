@@ -1,8 +1,17 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#Author: xiaojian
-#Time: 2018/11/23 20:48
+"""
+=================================
+Author: keen
+Created on: 2019/10/18
+E-mail:keen2020@outlook.com
+=================================
+
+"""
+
+
 from selenium.webdriver.common.by import By
+
+
 class IndexPageLocator:
     # 关于我们
     about_us = (By.XPATH,'//a[text()="关于我们"]')

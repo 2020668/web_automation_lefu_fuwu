@@ -1,8 +1,12 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: bid_page
-# Author: 简
-# Time: 2019/8/5
+"""
+=================================
+Author: keen
+Created on: 2019/10/18
+E-mail:keen2020@outlook.com
+=================================
+
+"""
 
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.common.by import By
@@ -10,6 +14,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from PageLocators.bidPage_locator import BidPageLocator as loc
+
 
 class BidPage:
 
