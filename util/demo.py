@@ -9,7 +9,6 @@ E-mail:keen2020@outlook.com
 """
 
 
-import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
@@ -24,9 +23,10 @@ import datetime
 # 测试用例 = 测试对象的功能 + 测试数据
 
 # 打开浏览器，访问网址
+# driver = webdriver.Chrome("C:\\Program Files (x86)\\Google\\Chrome Beta\\Application\\chrome.exe")
 driver = webdriver.Chrome()
 driver.maximize_window()
-driver.get("api.test-agent.hczypay.com")
+driver.get("http://api.test-agent.hczypay.com")
 
 loc = By.XPATH, "//input[@type='text']"
 WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
@@ -39,7 +39,6 @@ driver.find_element(*loc).send_keys("123456")
 loc = By.XPATH, "//span"
 WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
 driver.find_element(*loc).click()
-
 
 time.sleep(8)
 
