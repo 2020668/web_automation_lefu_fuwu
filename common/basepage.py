@@ -154,6 +154,22 @@ class BasePage(object):
             logging.info("获取 {} 元素 {} 的文本值为:{}".format(img_desc, loc, text))
             return text
 
+    # 获取隐藏元素的文本值。
+    def get_hide_text(self, loc, img_desc, timeout=30, frequency=0.5):
+        ele = self._deal_element(loc, img_desc, timeout, frequency, wait_type="precence")
+        # 获取属性
+        try:
+            text = ele.get_attribute("textContent")
+        except:
+            # 日志
+            logging.exception("获取 {} 元素 {} 的文本失败！".format(img_desc, loc))
+            # 截图
+            self.save_img(img_desc)
+            raise
+        else:
+            logging.info("获取 {} 元素 {} 的文本值为:{}".format(img_desc, loc, text))
+        return text
+
     def save_img(self, img_description):
         """
         :param img_description: 图片的描述 。格式为 页面名称_功能名

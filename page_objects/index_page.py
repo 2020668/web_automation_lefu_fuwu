@@ -29,5 +29,5 @@ class IndexPage(BasePage):
     def get_user_name(self):
 
         self.wait_ele_visible(loc=Loc.user_name_loc, img_desc="首页_用户名")
-        self.get_text(loc=Loc.user_name_loc, img_desc="首页_用户名")
-        return self
+        text = self.get_text(loc=Loc.user_name_loc, img_desc="首页_用户名")
+        return text

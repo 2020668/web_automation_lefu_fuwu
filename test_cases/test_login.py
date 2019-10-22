@@ -13,9 +13,11 @@ from selenium import webdriver
 import ddt
 import logging
 import pytest
+import time
 
 from page_objects.login_page import LoginPage
 from page_objects.index_page import IndexPage
+
 
 from data import common_data as cd
 from data import login_datas as ld
@@ -43,9 +45,12 @@ class TestLogin(unittest.TestCase):
 
         # 步骤
         LoginPage(self.driver).login_action(ld.success["user"], ld.success["pwd"])
+
+        time.sleep(2)
+
         # 断言
-        self.assertEqual(IndexPage(self.driver).get_user_name(), ld.success["username"])
-        self.assertTrue(LoginPage(self.driver)).get_login_info()
+        # self.assertEqual(IndexPage(self.driver).get_user_name(), ld.success["username"])
+        self.assertTrue(LoginPage(self.driver).get_login_info())
 
     # @ddt.data(*ld.invalid_data)
     # def test_login_no_pwd(self, data):
