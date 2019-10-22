@@ -9,37 +9,25 @@ E-mail:keen2020@outlook.com
 """
 
 
-from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
-from page_locators.indexPage_locator import IndexPageLocator as Loc
+from page_locators.index_page_locator import IndexPageLocator as Loc
 
 
-class IndexPage:
-    # 用户昵称定位
-    user_loc = (By.XPATH, '//a[contains(text(),"我的帐户")]')
+from common.basepage import BasePage
 
-    def __init__(self, driver: WebDriver):
-        self.driver = driver
 
-    def check_username_exists(self):
-        try:
-            WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located(self.user_loc))
-            return True
-        except:
-            return False
+class IndexPage(BasePage):
 
-    # 获取标名 - 第一个标
-    def get_bid_name(self):
-        # 等待
-        WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located(Loc.bid_name))
-        return self.driver.find_element(*Loc.bid_name).text
+    def click_open_account(self):
 
-    # 点击第一个标的抢投标按钮
-    def click_first_bid(self):
-        # 等待
-        WebDriverWait(self.driver,20).until(ec.visibility_of_element_located(Loc.bid_button))
-        self.driver.find_element(*Loc.bid_button).click()
+        self.wait_ele_visible(loc=Loc.open_account_button, img_desc="首页_开户进件按钮")
+        self.click_element(loc=Loc.open_account_button, img_desc="首页_开户进件按钮")
+
+    def get_user_name(self):
+
+        self.wait_ele_visible(loc=Loc.user_name_loc, img_desc="首页_用户名")
+        self.get_text(loc=Loc.user_name_loc, img_desc="首页_用户名")
         return self

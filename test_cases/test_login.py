@@ -40,26 +40,21 @@ class TestLogin(unittest.TestCase):
     @pytest.mark.smoke
     def test_login_success(self):
         # 用例 = 登陆页的登陆功能 - 首页的 检查用户昵称存在的功能
-        # 步骤
-        LoginPage(self.driver).login(ld.success["user"], ld.success["passwd"])
-        # 断言
-        self.assertTrue(IndexPage(self.driver).check_userName_exists())
 
-    @ddt.data(*ld.invalid_datas)
-    def test_login_noPasswd(self, data):
         # 步骤
-        lp = LoginPage(self.driver)
-        lp.login(data["user"], data["passwd"])
+        LoginPage(self.driver).login_action(ld.success["user"], ld.success["pwd"])
         # 断言
-        self.assertEqual(data["check"], lp.get_form_error_info())
+        self.assertEqual(IndexPage(self.driver).get_user_name(), ld.success["username"])
+        self.assertTrue(LoginPage(self.driver)).get_login_info()
 
-    def test_login_wrongPasswd(self):
-        # 步骤
-        lp = LoginPage(self.driver)
-        lp.login("18684720000", "python")
-        # 断言
-        self.assertEqual("此账号没有经过授权，请联系管理员!", lp.get_page_center_error_info())
-
-    @pytest.mark.slow
-    def test_case1(self):
-        assert True
+    # @ddt.data(*ld.invalid_data)
+    # def test_login_no_pwd(self, data):
+    #     # 步骤
+    #     lp = LoginPage(self.driver)
+    #     lp.login_action(data["user"], data["pwd"])
+    #     # 断言
+    #     self.assertEqual(data["check"], lp.get_form_error_info())
+    #
+    # @pytest.mark.slow
+    # def test_case1(self):
+    #     assert True
