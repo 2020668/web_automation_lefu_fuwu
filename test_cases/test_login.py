@@ -49,8 +49,8 @@ class TestLogin(unittest.TestCase):
         time.sleep(2)
 
         # 断言
-        # self.assertEqual(IndexPage(self.driver).get_user_name(), ld.success["username"])
-        self.assertTrue(LoginPage(self.driver).get_login_info())
+        self.assertEqual(IndexPage(self.driver).get_user_name(), ld.success["username"])
+        # self.assertTrue(LoginPage(self.driver).get_login_info())
 
     # @ddt.data(*ld.invalid_data)
     # def test_login_no_pwd(self, data):

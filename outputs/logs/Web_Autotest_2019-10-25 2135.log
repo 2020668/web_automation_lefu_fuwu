@@ -1,0 +1,21 @@
+ Fri, 25 Oct 2019 21:35:25  INFO test_login.py setUp [ line:32 ] ==========登陆功能中每个用例的前置：打开浏览器，访问网址=============
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py wait_ele_visible [ line:43 ] 等待 登陆页面_输入用户名  元素  ('xpath', "//input[@type='text']") 可见成功。耗时：0:00:00.044879
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py get_element [ line:80 ] 查找  登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 成功！
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py input_text [ line:117 ] 在 登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 上输入文本值：18627787716 成功！
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py wait_ele_visible [ line:43 ] 等待 登陆页面_输入密码  元素  ('xpath', "//input[@type='password']") 可见成功。耗时：0:00:00.027985
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py get_element [ line:80 ] 查找  登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 成功！
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py input_text [ line:117 ] 在 登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 上输入文本值：123456 成功！
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py wait_ele_exists [ line:58 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 存在成功。耗时：0:00:00.016015
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py wait_ele_visible [ line:43 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 可见成功。耗时：0:00:00.029880
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py get_element [ line:80 ] 查找  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Fri, 25 Oct 2019 21:35:34  INFO basepage.py click_element [ line:104 ] 点击  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Fri, 25 Oct 2019 21:36:07  ERROR basepage.py wait_ele_visible [ line:37 ] 等待元素 ('xpath', "//div[@class='ivu-message-notice-content']") 可见 失败！
+Traceback (most recent call last):
+  File "C:\Users\keen\PycharmProjects\web_automation_lefu_fuwu\common\basepage.py", line 34, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Fri, 25 Oct 2019 21:36:07  INFO basepage.py save_img [ line:187 ] 截图成功，截图存放在：C:\Users\keen\PycharmProjects\web_automation_lefu_fuwu\outputs/imgs\登录后的提示语_2019-10-25 21_36_07.png
+ Fri, 25 Oct 2019 21:36:07  INFO test_login.py tearDown [ line:39 ] ==========登陆功能中每个用例的后置：关闭浏览器会话=============
