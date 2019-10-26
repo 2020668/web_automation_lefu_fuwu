@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0232ea5-5ab0-44b4-b5e3-a969f4eb8c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/outputs/imgs/登录后的提示语_2019-10-25 21_36_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-25 2135.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/open_account_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/bidPage_locator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/userPage_locator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_open_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_open_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="42" column="33" lean-forward="true" selection-end-line="65" />
+            <state relative-caret-position="510">
+              <caret line="42" column="33" selection-end-line="65" />
               <folding>
                 <element signature="e#166#181#0" expanded="true" />
               </folding>
@@ -35,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_objects/index_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="442">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#167#210#0" expanded="true" />
@@ -47,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+            <state relative-caret-position="663">
+              <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding>
                 <element signature="e#166#181#0" expanded="true" />
               </folding>
@@ -68,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="622">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
             </state>
           </provider>
         </entry>
@@ -164,26 +157,6 @@
             <path>
               <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="outputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571763018145</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="version 2019102601">
+      <created>1572023617235</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572023617235</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -355,14 +335,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -393,7 +373,8 @@
     <MESSAGE value="version 2019101802" />
     <MESSAGE value="version 2019102201" />
     <MESSAGE value="version 2019102301" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2019102301" />
+    <MESSAGE value="version 2019102601" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2019102601" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestCases/test_invest.py" />
@@ -469,13 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/bidPage_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/bidPage_locator.py" />
     <entry file="file://$PROJECT_DIR$/page_objects/bid_page.py" />
     <entry file="file://$PROJECT_DIR$/page_objects/user_page.py" />
     <entry file="file://$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-18 1536.log" />
@@ -552,23 +527,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/outputs/imgs/登录后的提示语_2019-10-23 00_27_23.png" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="42" column="33" lean-forward="true" selection-end-line="65" />
-          <folding>
-            <element signature="e#166#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page_locators/index_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -576,40 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/index_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#167#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-          <folding>
-            <element signature="e#166#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/userPage_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/userPage_locator.py" />
     <entry file="file://$PROJECT_DIR$/page_locators/login_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -627,10 +552,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="33" selection-end-line="65" />
+          <folding>
+            <element signature="e#166#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#167#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+          <folding>
+            <element signature="e#166#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="622">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
         </state>
       </provider>
     </entry>
