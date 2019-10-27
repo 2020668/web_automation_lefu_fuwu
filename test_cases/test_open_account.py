@@ -17,10 +17,11 @@ import time
 
 from page_objects.login_page import LoginPage
 from page_objects.index_page import IndexPage
+from page_objects.open_account_page import OpenAccountPage
 
 
 from data import common_data as cd
-from data import login_datas as ld
+from data import open_account_data as od
 
 
 # 测试用例 = 测试对象的功能 + 测试数据
@@ -39,8 +40,8 @@ class OpenAccount(unittest.TestCase):
         logging.info("==========登陆功能中每个用例的后置：关闭浏览器会话=============")
         self.driver.quit()
 
-    @pytest.mark.smoke
-    def test_open_account_success(self):
+    @pytest.mark.parametrize("data", od.success_data)
+    def test_open_account_success(self, data):
         # 用例 = 登陆页的登陆功能 - 首页的 检查用户昵称存在的功能
 
         # 步骤
@@ -51,18 +52,10 @@ class OpenAccount(unittest.TestCase):
         # 点击开户进件
         IndexPage(self.driver).click_open_account()
 
-        # 断言
-        self.assertEqual(IndexPage(self.driver).get_user_name(), ld.success["username"])
-        # self.assertTrue(LoginPage(self.driver).get_login_info())
+        # 执行开户进件
+        OpenAccountPage(self.driver).open_account(account_phone=data["account_phone"],
+                                                  jy_type=data["jy_type"],
 
-    # @ddt.data(*ld.invalid_data)
-    # def test_login_no_pwd(self, data):
-    #     # 步骤
-    #     lp = LoginPage(self.driver)
-    #     lp.login_action(data["user"], data["pwd"])
-    #     # 断言
-    #     self.assertEqual(data["check"], lp.get_form_error_info())
-    #
-    # @pytest.mark.slow
-    # def test_case1(self):
-    #     assert True
+
+
+                                                  )
