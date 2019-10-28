@@ -19,7 +19,6 @@ from page_objects.login_page import LoginPage
 from page_objects.index_page import IndexPage
 from page_objects.open_account_page import OpenAccountPage
 
-
 from data import common_data as cd
 from data import open_account_data as od
 
@@ -55,7 +54,24 @@ class OpenAccount(unittest.TestCase):
         # 执行开户进件
         OpenAccountPage(self.driver).open_account(account_phone=data["account_phone"],
                                                   jy_type=data["jy_type"],
-
-
-
+                                                  shop_name=data["shop_name"],
+                                                  shop_nickname=data["shop_nickname"],
+                                                  shop_type=data["shop_type"],
+                                                  area=data["area"],
+                                                  address=data["address"],
+                                                  rate=data["rate"],
+                                                  pos=data["pos"],
+                                                  debit_card_rate=data["debit_card_rate"],
+                                                  credit_card_rate=data["credit_card_rate"],
+                                                  js_name=data["js_name"],
+                                                  sf_id=data["sf_id"],
+                                                  e_mail=data["e_mail"],
+                                                  alipay_name=data["alipay_name"],
+                                                  alipay_account=data["alipay_account"],
+                                                  wechat_account=data["wechat_account"],
+                                                  company_name=data["company_name"],
+                                                  bank_card=data["bank_card"],
+                                                  bank_name=data["bank_name"],
+                                                  zhi_bank_name=data["zhi_bank_name"],
+                                                  people_address=data["people_address"]
                                                   )

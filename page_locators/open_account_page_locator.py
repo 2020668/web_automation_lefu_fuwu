@@ -82,6 +82,12 @@ class OpenAccountPageLocator(object):
     # pos机按钮
     pos_loc = By.XPATH, "//span[text()='关闭']"
 
+    # 借记卡费率输入框
+    debit_rate_input_loc = By.XPATH, "//input[@placeholder='请输入借记卡费率']"
+
+    # 借记卡费率输入框
+    credit_rate_input_loc = By.XPATH, "//input[@placeholder='请输入贷记卡费率']"
+
     # 结算人姓名输入框
     js_name_input_loc = By.XPATH, "//input[@placeholder='请输入结算人姓名']"
 
@@ -93,6 +99,9 @@ class OpenAccountPageLocator(object):
 
     # 支付宝名称输入框
     alipay_name_input_loc = By.XPATH, "//input[@placeholder='请输入支付宝账号']"
+
+    # 支付宝账号输入框
+    alipay_account_input_loc = By.XPATH, "//input[@placeholder='请输入支付宝账号']"
 
     # 微信号输入框
     wechat_num_input_loc = By.XPATH, "//input[@placeholder='请输入微信号']"
@@ -125,7 +134,7 @@ class OpenAccountPageLocator(object):
     kh_zhi_bank_loc = By.XPATH, "//label[text()='开户支行']//following-sibling::*//input[@placeholder='请选择']"
 
     # 支行名称
-    kh_zhi_bank_name_lco = By.XPATH, "//li[text()='中国工商银行北京新中街支行']"
+    kh_zhi_bank_name_loc = By.XPATH, "//li[text()='中国工商银行北京新中街支行']"
 
     # 持卡人姓名输入框
     card_username_input_loc = By.XPATH, "//input[@placeholder='请输入持卡人姓名']"
