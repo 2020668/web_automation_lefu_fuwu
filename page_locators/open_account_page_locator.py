@@ -56,7 +56,7 @@ class OpenAccountPageLocator(object):
     shop_type_loc = By.XPATH, "//span[@class='ivu-select-placeholder']"
 
     # 商户类型名称
-    shop_type_name = By.XPATH, "//li[text()='休闲娱乐']"
+    # shop_type_name_loc = By.XPATH, "//li[text()='休闲娱乐']"
 
     # 商户地区选择框
     shop_area_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//div[@class='ivu-cascader-label']"
