@@ -55,7 +55,8 @@ class OpenAccount(unittest.TestCase):
         # 执行开户进件
         OpenAccountPage(self.driver).open_account(account_phone=data["account_phone"],
                                                   jy_type=data["jy_type"],
-
-
+                                                  shop_name=data["shop_name"],
+                                                  shop_nickname=data["shop_nickname"],
+                                                  shop_type=data["shop_type"],
 
                                                   )

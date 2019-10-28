@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0232ea5-5ab0-44b4-b5e3-a969f4eb8c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/open_account_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/js_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/upload_operation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/open_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/open_account_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/test_open_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_open_account.py" afterDir="false" />
     </list>
@@ -21,28 +18,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="697">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3002">
-              <caret line="180" column="32" lean-forward="true" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+            <state relative-caret-position="771">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding>
-                <element signature="e#170#206#0" expanded="true" />
+                <element signature="e#170#181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,23 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#166#181#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-              <folding>
-                <element signature="e#171#182#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="754">
+              <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -75,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -123,23 +101,19 @@
         <option value="$PROJECT_DIR$/page_locators/bidPage_locator.py" />
         <option value="$PROJECT_DIR$/page_locators/indexPage_locator.py" />
         <option value="$PROJECT_DIR$/page_objects/bid_page.py" />
-        <option value="$PROJECT_DIR$/data/login_datas.py" />
-        <option value="$PROJECT_DIR$/common/logger.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/util.py" />
-        <option value="$PROJECT_DIR$/util/baidu.py" />
-        <option value="$PROJECT_DIR$/util/demo.py" />
-        <option value="$PROJECT_DIR$/data/common_data.py" />
-        <option value="$PROJECT_DIR$/common/basepage.py" />
         <option value="$PROJECT_DIR$/page_locators/index_page_locator.py" />
         <option value="$PROJECT_DIR$/page_objects/index_page.py" />
-        <option value="$PROJECT_DIR$/page_objects/login_page.py" />
-        <option value="$PROJECT_DIR$/page_locators/login_page_locator.py" />
+        <option value="$PROJECT_DIR$/data/login_datas.py" />
+        <option value="$PROJECT_DIR$/common/logger.py" />
         <option value="$PROJECT_DIR$/test_cases/test_login.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/page_locators/login_page_locator.py" />
+        <option value="$PROJECT_DIR$/page_objects/login_page.py" />
+        <option value="$PROJECT_DIR$/common/basepage.py" />
+        <option value="$PROJECT_DIR$/data/common_data.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/util/demo.py" />
         <option value="$PROJECT_DIR$/page_locators/open_account_page_locator.py" />
-        <option value="$PROJECT_DIR$/util/upload_operation.py" />
-        <option value="$PROJECT_DIR$/common/tools.py" />
-        <option value="$PROJECT_DIR$/data/open_account_data.py" />
         <option value="$PROJECT_DIR$/test_cases/test_open_account.py" />
         <option value="$PROJECT_DIR$/page_objects/open_account_page.py" />
       </list>
@@ -147,9 +121,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
-    <option name="y" value="126" />
+    <option name="y" value="128" />
     <option name="width" value="1440" />
-    <option name="height" value="775" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -170,12 +144,22 @@
             <path>
               <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
@@ -205,13 +189,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\keen\PycharmProjects\web_automation_lefu_fuwu\data" />
-      <recent name="C:\Users\keen\PycharmProjects\web_automation_lefu_fuwu\util" />
       <recent name="C:\Users\Administrator\PycharmProjects\web_automation_lefu_fuwu" />
     </key>
   </component>
@@ -227,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="web_automation_lefu_fuwu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,8 +269,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.demo" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.pytest for test_login.TestLogin" />
       </list>
     </recent_temporary>
@@ -325,28 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571709697190</updated>
     </task>
-    <task id="LOCAL-00004" summary="version 2019102301">
-      <created>1571763018145</created>
+    <task id="LOCAL-00004" summary="version 2019102203">
+      <created>1571740044047</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1571763018145</updated>
+      <updated>1571740044047</updated>
     </task>
-    <task id="LOCAL-00005" summary="version 2019102601">
-      <created>1572023617235</created>
+    <task id="LOCAL-00005" summary="version 2019102301">
+      <created>1571845151192</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1572023617235</updated>
+      <updated>1571845151192</updated>
     </task>
-    <task id="LOCAL-00006" summary="version 2019102602">
-      <created>1572101725157</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1572101725158</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -355,22 +330,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,10 +375,9 @@
     <MESSAGE value="version 2019101801" />
     <MESSAGE value="version 2019101802" />
     <MESSAGE value="version 2019102201" />
+    <MESSAGE value="version 2019102203" />
     <MESSAGE value="version 2019102301" />
-    <MESSAGE value="version 2019102601" />
-    <MESSAGE value="version 2019102602" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2019102602" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2019102301" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestCases/test_invest.py" />
@@ -460,11 +434,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/v/cache/stepwise" />
-    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/v/cache/nodeids" />
-    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/CACHEDIR.TAG" />
-    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/README.md" />
+    <entry file="file://$PROJECT_DIR$/page_locators/userPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/v/cache/stepwise">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/v/cache/nodeids">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/CACHEDIR.TAG">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/.pytest_cache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -479,11 +475,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/bidPage_locator.py" />
+    <entry file="file://$PROJECT_DIR$/page_locators/bidPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page_objects/bid_page.py" />
     <entry file="file://$PROJECT_DIR$/page_objects/user_page.py" />
     <entry file="file://$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-18 1536.log" />
     <entry file="file://$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-18 1559.log" />
+    <entry file="file://$PROJECT_DIR$/page_objects/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#167#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -507,30 +519,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.py" />
-    <entry file="file://$PROJECT_DIR$/util/baidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#167#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#167#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="467">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#166#180#0" expanded="true" />
@@ -538,123 +529,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/common_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="166" column="35" lean-forward="true" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
-          <folding>
-            <element signature="e#166#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/imgs/登录后的提示语_2019-10-23 00_27_23.png" />
     <entry file="file://$PROJECT_DIR$/page_locators/index_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/userPage_locator.py" />
+    <entry file="file://$PROJECT_DIR$/util.py" />
     <entry file="file://$PROJECT_DIR$/page_locators/login_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#166#181#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_objects/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="544">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#166#202#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
+    <entry file="file://$PROJECT_DIR$/common/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="33" selection-end-line="65" />
+        <state relative-caret-position="187">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#166#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/index_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#167#210#0" expanded="true" />
+            <element signature="e#166#223#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/tools.py">
+    <entry file="file://$PROJECT_DIR$/util/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="e#171#182#0" expanded="true" />
+            <element signature="e#167#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/upload_operation.py">
+    <entry file="file://$PROJECT_DIR$/data/common_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="697">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#166#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="180" column="32" lean-forward="true" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
+        <state relative-caret-position="754">
+          <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+        <state relative-caret-position="771">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
           <folding>
-            <element signature="e#170#206#0" expanded="true" />
+            <element signature="e#170#181#0" expanded="true" />
           </folding>
         </state>
       </provider>
