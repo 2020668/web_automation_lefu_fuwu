@@ -120,6 +120,3 @@ class OpenAccountPage(BasePage):
             self.wait_ele_visible(loc=Loc.save_loc, img_desc="保存按钮")
             self.click_element(loc=Loc.save_loc, img_desc="保存按钮")
 
-
-
-
