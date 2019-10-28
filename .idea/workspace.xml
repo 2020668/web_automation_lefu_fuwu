@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0232ea5-5ab0-44b4-b5e3-a969f4eb8c17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/open_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/open_account_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_open_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_open_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -30,10 +28,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+              <folding>
+                <element signature="e#171#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="771">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#170#181#0" expanded="true" />
               </folding>
@@ -116,6 +126,7 @@
         <option value="$PROJECT_DIR$/page_locators/open_account_page_locator.py" />
         <option value="$PROJECT_DIR$/test_cases/test_open_account.py" />
         <option value="$PROJECT_DIR$/page_objects/open_account_page.py" />
+        <option value="$PROJECT_DIR$/common/tools.py" />
       </list>
     </option>
   </component>
@@ -321,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571845151192</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="version 2019102801">
+      <created>1572239439975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572239439975</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -331,7 +349,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,7 +361,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -377,7 +394,8 @@
     <MESSAGE value="version 2019102201" />
     <MESSAGE value="version 2019102203" />
     <MESSAGE value="version 2019102301" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2019102301" />
+    <MESSAGE value="version 2019102801" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2019102801" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestCases/test_invest.py" />
@@ -598,16 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -618,9 +626,29 @@
     <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#170#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="e#171#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
