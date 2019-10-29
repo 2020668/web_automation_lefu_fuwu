@@ -20,8 +20,9 @@ from data import open_account_data as od
 
 # 测试用例 = 测试对象的功能 + 测试数据
 @pytest.mark.usefixtures("init_driver")
-class OpenAccount(object):
+class TestOpenAccount(object):
 
+    @pytest.mark.open
     @pytest.mark.parametrize("data", od.success_data)
     def test_open_account_success(self, data, init_driver):
         # 用例 = 登陆页的登陆功能 - 首页的 检查用户昵称存在的功能

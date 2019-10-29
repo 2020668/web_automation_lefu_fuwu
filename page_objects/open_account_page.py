@@ -12,6 +12,7 @@ E-mail:keen2020@outlook.com
 
 """
 
+import time
 from selenium.webdriver.common.by import By
 
 from common.basepage import BasePage
@@ -44,13 +45,13 @@ class OpenAccountPage(BasePage):
 
         bank_province, bank_city, bank_district = address_match([bank_address])
 
-        bank_address_province_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[@class=" \
+        bank_address_province_loc = By.XPATH, "//label[text()='开户地址']//following-sibling::*//li[@class=" \
                                               "'ivu-cascader-menu-item' and contains(text(),'{}')]".format(bank_province)
 
-        bank_address_city_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'{}') " \
+        bank_address_city_loc = By.XPATH, "//label[text()='开户地址']//following-sibling::*//li[contains(text(),'{}') " \
                                           "and @class='ivu-cascader-menu-item']".format(bank_city)
 
-        bank_address_district_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'{}')" \
+        bank_address_district_loc = By.XPATH, "//label[text()='开户地址']//following-sibling::*//li[contains(text(),'{}')" \
                                               " and @class='ivu-cascader-menu-item']".format(bank_district)
 
         self.wait_ele_visible(loc=Loc.phone_input_loc, img_desc="手机号码输入框")

@@ -30,15 +30,3 @@ class TestLogin(object):
         # 断言
         assert IndexPage(init_driver).get_user_name() == data["username"]
         # self.assertTrue(LoginPage(self.driver).get_login_info())
-
-    # @ddt.data(*ld.invalid_data)
-    # def test_login_no_pwd(self, data):
-    #     # 步骤
-    #     lp = LoginPage(self.driver)
-    #     lp.login_action(data["user"], data["pwd"])
-    #     # 断言
-    #     self.assertEqual(data["check"], lp.get_form_error_info())
-    #
-    # @pytest.mark.slow
-    # def test_case1(self):
-    #     assert True

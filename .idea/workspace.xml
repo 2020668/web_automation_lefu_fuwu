@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0232ea5-5ab0-44b4-b5e3-a969f4eb8c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2143.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2205.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2208.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2209.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2212.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2213.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2214.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2215.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2221.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2222.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2225.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2228.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2230.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2240.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2243.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2258.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2259.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2301.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-10-29 2302.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/invest_datas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/login_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/login_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/open_account_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/open_account_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/imgs/登录后的提示语_2019-10-25 21_36_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/open_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/open_account_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/test_open_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_open_account.py" afterDir="false" />
@@ -42,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="-298">
+              <caret line="79" column="63" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -51,31 +30,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="85">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="192" selection-start-line="192" selection-end-line="192" />
+            <state relative-caret-position="251">
+              <caret line="56" column="74" lean-forward="true" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
               <folding>
-                <element signature="e#170#213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-              <folding>
-                <element signature="e#167#180#0" expanded="true" />
+                <element signature="e#170#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,19 +52,16 @@
         <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#168#181#0" expanded="true" />
-              </folding>
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -157,23 +121,23 @@
         <option value="$PROJECT_DIR$/page_locators/login_page_locator.py" />
         <option value="$PROJECT_DIR$/util/upload_operation.py" />
         <option value="$PROJECT_DIR$/common/tools.py" />
-        <option value="$PROJECT_DIR$/data/open_account_data.py" />
         <option value="$PROJECT_DIR$/page_locators/open_account_page_locator.py" />
-        <option value="$PROJECT_DIR$/page_objects/open_account_page.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/data/login_data.py" />
+        <option value="$PROJECT_DIR$/test_cases/conftest.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/test_cases/test_login.py" />
         <option value="$PROJECT_DIR$/test_cases/test_open_account.py" />
-        <option value="$PROJECT_DIR$/test_cases/conftest.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/data/open_account_data.py" />
+        <option value="$PROJECT_DIR$/page_objects/open_account_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="125" />
-    <option name="width" value="1440" />
-    <option name="height" value="775" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,47 +157,18 @@
             <path>
               <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="outputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="page_locators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="page_objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
               <item name="test_cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_automation_lefu_fuwu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_automation_lefu_fuwu" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_cases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -419,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572273456162</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="version 2019102902">
+      <created>1572361389824</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572361389824</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -429,13 +370,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,18 +420,11 @@
     <MESSAGE value="version 2019102701" />
     <MESSAGE value="version 2019102803" />
     <MESSAGE value="version 2019102805" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2019102805" />
+    <MESSAGE value="version 2019102902" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2019102902" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestCases/test_invest.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-07 2024.log" />
     <entry file="file://$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-07 2029.log" />
     <entry file="file://$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-07 2150.log" />
@@ -500,24 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ModeA/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -547,13 +468,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/invest_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/invest_datas.py" />
     <entry file="file://$PROJECT_DIR$/page_locators/bidPage_locator.py" />
     <entry file="file://$PROJECT_DIR$/page_objects/bid_page.py" />
     <entry file="file://$PROJECT_DIR$/page_objects/user_page.py" />
@@ -642,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/common_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -673,23 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="192" selection-start-line="192" selection-end-line="192" />
-          <folding>
-            <element signature="e#170#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -699,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="136">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="e#166#179#0" expanded="true" />
@@ -707,17 +598,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
+    <entry file="file://$PROJECT_DIR$/API/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/ModeA/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pytest_cache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#167#180#0" expanded="true" />
           </folding>
@@ -727,17 +648,38 @@
     <entry file="file://$PROJECT_DIR$/test_cases/test_open_account.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#168#181#0" expanded="true" />
-          </folding>
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/open_account_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/open_account_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="79" column="63" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/open_account_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="56" column="74" lean-forward="true" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
+          <folding>
+            <element signature="e#170#176#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,14 @@
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py wait_ele_visible [ line:43 ] 等待 登陆页面_输入用户名  元素  ('xpath', "//input[@type='text']") 可见成功。耗时：0:00:00.046873
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py get_element [ line:80 ] 查找  登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 成功！
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py input_text [ line:117 ] 在 登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 上输入文本值：18627787716 成功！
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py wait_ele_visible [ line:43 ] 等待 登陆页面_输入密码  元素  ('xpath', "//input[@type='password']") 可见成功。耗时：0:00:00.026930
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py get_element [ line:80 ] 查找  登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 成功！
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py input_text [ line:117 ] 在 登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 上输入文本值：123456 成功！
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py wait_ele_exists [ line:58 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 存在成功。耗时：0:00:00.013961
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py wait_ele_visible [ line:43 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 可见成功。耗时：0:00:00.019477
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py get_element [ line:80 ] 查找  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Tue, 29 Oct 2019 23:16:31  INFO basepage.py click_element [ line:104 ] 点击  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Tue, 29 Oct 2019 23:16:36  INFO basepage.py wait_ele_visible [ line:43 ] 等待 首页_用户名  元素  ('xpath', '//strong') 可见成功。耗时：0:00:00.023937
+ Tue, 29 Oct 2019 23:16:36  INFO basepage.py wait_ele_exists [ line:58 ] 等待 首页_用户名  元素  ('xpath', '//strong') 存在成功。耗时：0:00:00.005983
+ Tue, 29 Oct 2019 23:16:36  INFO basepage.py get_element [ line:80 ] 查找  首页_用户名 元素 ('xpath', '//strong') 成功！
+ Tue, 29 Oct 2019 23:16:36  INFO basepage.py get_text [ line:154 ] 获取 首页_用户名 元素 ('xpath', '//strong') 的文本值为:测试管理员294

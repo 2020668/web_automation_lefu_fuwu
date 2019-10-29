@@ -22,7 +22,7 @@ success_data = [
      "shop_type": "医疗健康",
      "area": "内蒙古呼和浩特市新城区",
      "address": "内蒙古呼和浩特市新城区特1号",
-     "rate": 0.45,
+     "rate": "0.45",
      "pos": True,
      "debit_card_rate": "2.50",
      "credit_card_rate": "2.52",
