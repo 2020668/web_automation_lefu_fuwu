@@ -71,6 +71,7 @@ class OpenAccount(unittest.TestCase):
                                                   wechat_account=data["wechat_account"],
                                                   company_name=data["company_name"],
                                                   bank_card=data["bank_card"],
+                                                  bank_address=data["bank_address"],
                                                   bank_name=data["bank_name"],
                                                   zhi_bank_name=data["zhi_bank_name"],
                                                   people_address=data["people_address"]

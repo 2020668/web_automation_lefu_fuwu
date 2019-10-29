@@ -15,6 +15,7 @@ E-mail:keen2020@outlook.com
 from selenium.webdriver.common.by import By
 
 from common.basepage import BasePage
+from common.tools import address_match
 from page_locators.open_account_page_locator import OpenAccountPageLocator as Loc
 
 
@@ -22,13 +23,35 @@ class OpenAccountPage(BasePage):
 
     def open_account(self, account_phone, jy_type, shop_name, shop_nickname, shop_type, area, address, rate,
                      pos, debit_card_rate, credit_card_rate, js_name, sf_id, e_mail, alipay_name, alipay_account,
-                     wechat_account, company_name, bank_card, bank_name, zhi_bank_name, people_address):
+                     wechat_account, company_name, bank_card, bank_name, bank_address, zhi_bank_name, people_address):
 
         shop_type_name = By.XPATH, "//li[text()='{}']".format(shop_type)
 
         bank_name_loc = By.XPATH, "//li[text()='{}']".format(bank_name)
 
         kh_zhi_bank_name_loc = By.XPATH, "//li[text()='{}']".format(zhi_bank_name)
+
+        province, city, district = address_match([area])
+
+        shop_area_province_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[" \
+                                           "@class='ivu-cascader-menu-item' and contains(text(),'{}')]".format(province)
+
+        shop_area_city_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'{}') and " \
+                                       "@class='ivu-cascader-menu-item']".format(city)
+
+        shop_area_district_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'{}') " \
+                                           "and @class='ivu-cascader-menu-item']".format(district)
+
+        bank_province, bank_city, bank_district = address_match([bank_address])
+
+        bank_address_province_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[@class=" \
+                                              "'ivu-cascader-menu-item' and contains(text(),'{}')]".format(bank_province)
+
+        bank_address_city_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'{}') " \
+                                          "and @class='ivu-cascader-menu-item']".format(bank_city)
+
+        bank_address_district_loc = By.XPATH, "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'{}')" \
+                                              " and @class='ivu-cascader-menu-item']".format(bank_district)
 
         self.wait_ele_visible(loc=Loc.phone_input_loc, img_desc="手机号码输入框")
         self.input_text(loc=Loc.phone_input_loc, value=account_phone, img_desc="手机号码输入框")
@@ -54,7 +77,12 @@ class OpenAccountPage(BasePage):
 
             self.wait_ele_visible(loc=Loc.shop_area_loc, img_desc="商户地区选择框")
             self.click_element(loc=Loc.shop_area_loc, img_desc="商户地区选择框")
-            # self.wait_ele_visible()
+            self.wait_ele_visible(loc=shop_area_province_loc, img_desc="选择省份")
+            self.click_element(loc=shop_area_province_loc, img_desc="选择省份")
+            self.wait_ele_visible(loc=shop_area_city_loc, img_desc="选择市")
+            self.click_element(loc=shop_area_city_loc, img_desc="选择市")
+            self.wait_ele_visible(loc=shop_area_district_loc, img_desc="选择区")
+            self.click_element(loc=shop_area_district_loc, img_desc="选择区")
 
             self.wait_ele_visible(loc=Loc.address_input_loc, img_desc="详细地址输入框")
             self.input_text(loc=Loc.address_input_loc, value=address, img_desc="详细地址输入框")
@@ -102,6 +130,18 @@ class OpenAccountPage(BasePage):
             self.wait_ele_visible(loc=bank_name_loc, img_desc="银行名称")
             self.click_element(loc=bank_name_loc, img_desc="银行名称")
 
+            self.wait_ele_visible(loc=Loc.kh_address_loc, img_desc="开户地址选择框")
+            self.click_element(loc=Loc.kh_address_loc, img_desc="开户地址选择框")
+
+            self.wait_ele_visible(loc=bank_address_province_loc, img_desc="开户银行的省份")
+            self.click_element(loc=bank_address_province_loc, img_desc="开户银行的省份")
+
+            self.wait_ele_visible(loc=bank_address_city_loc, img_desc="开户银行的市")
+            self.click_element(loc=bank_address_city_loc, img_desc="开户银行的市")
+
+            self.wait_ele_visible(loc=bank_address_district_loc, img_desc="开户银行的区")
+            self.click_element(loc=bank_address_district_loc, img_desc="开户银行的区")
+
             self.wait_ele_visible(loc=Loc.kh_zhi_bank_loc, img_desc="开户支行选择框")
             self.click_element(loc=Loc.kh_zhi_bank_loc, img_desc="开户支行选择框")
 
@@ -119,4 +159,3 @@ class OpenAccountPage(BasePage):
 
             self.wait_ele_visible(loc=Loc.save_loc, img_desc="保存按钮")
             self.click_element(loc=Loc.save_loc, img_desc="保存按钮")
-
