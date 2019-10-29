@@ -46,7 +46,7 @@ class TestLogin(unittest.TestCase):
         # 步骤
         LoginPage(self.driver).login_action(ld.success["user"], ld.success["pwd"])
 
-        time.sleep(2)
+        # time.sleep(2)
 
         # 断言
         self.assertEqual(IndexPage(self.driver).get_user_name(), ld.success["username"])

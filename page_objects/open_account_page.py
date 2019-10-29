@@ -15,7 +15,7 @@ E-mail:keen2020@outlook.com
 from selenium.webdriver.common.by import By
 
 from common.basepage import BasePage
-from common.tools import address_match
+from common.tools import upload, address_match
 from page_locators.open_account_page_locator import OpenAccountPageLocator as Loc
 
 
@@ -77,10 +77,13 @@ class OpenAccountPage(BasePage):
 
             self.wait_ele_visible(loc=Loc.shop_area_loc, img_desc="商户地区选择框")
             self.click_element(loc=Loc.shop_area_loc, img_desc="商户地区选择框")
+
             self.wait_ele_visible(loc=shop_area_province_loc, img_desc="选择省份")
             self.click_element(loc=shop_area_province_loc, img_desc="选择省份")
+
             self.wait_ele_visible(loc=shop_area_city_loc, img_desc="选择市")
             self.click_element(loc=shop_area_city_loc, img_desc="选择市")
+
             self.wait_ele_visible(loc=shop_area_district_loc, img_desc="选择区")
             self.click_element(loc=shop_area_district_loc, img_desc="选择区")
 
@@ -156,6 +159,34 @@ class OpenAccountPage(BasePage):
 
             self.wait_ele_visible(loc=Loc.card_user_address_input_loc, img_desc="持卡人地址输入框")
             self.input_text(loc=Loc.card_user_address_input_loc, value=people_address, img_desc="持卡人地址输入框")
+
+            self.wait_ele_visible(loc=Loc.shop_head_img_loc, img_desc="门头照图片上传按钮")
+            self.click_element(loc=Loc.shop_head_img_loc, img_desc="门头照图片上传按钮")
+            upload("C:\\Users\\Administrator\\Desktop\\FunPay\\资料\253\\将门头.jpg")
+
+            self.wait_ele_visible(loc=Loc.shop_inner_img_loc, img_desc="店内图片上传按钮")
+            self.click_element(loc=Loc.shop_inner_img_loc, img_desc="店内图片上传按钮")
+            upload("C:\\Users\\Administrator\\Desktop\\FunPay\\资料\253\\店内.jpg")
+
+            self.wait_ele_visible(loc=Loc.cash_img_loc, img_desc="收银台图片上传按钮")
+            self.click_element(loc=Loc.cash_img_loc, img_desc="收银台图片上传按钮")
+            upload("C:\\Users\\Administrator\\Desktop\\FunPay\\资料\253\\收银台.jpg")
+
+            self.wait_ele_visible(loc=Loc.hand_card_img_loc, img_desc="手持身份证图片上传按钮")
+            self.click_element(loc=Loc.hand_card_img_loc, img_desc="手持身份证图片上传按钮")
+            upload("C:\\Users\\Administrator\\Desktop\\FunPay\\资料\253\\手持.jpg")
+
+            self.wait_ele_visible(loc=Loc.person_face_img_loc, img_desc="结算人身份证人像面图片上传按钮")
+            self.click_element(loc=Loc.person_face_img_loc, img_desc="结算人身份证人像面图片上传按钮")
+            upload("C:\\Users\\Administrator\\Desktop\\FunPay\\资料\253\\身正.jpg")
+
+            self.wait_ele_visible(loc=Loc.person_emblem_img_loc, img_desc="结算人身份证国徽面图片上传按钮")
+            self.click_element(loc=Loc.person_emblem_img_loc, img_desc="结算人身份证国徽面图片上传按钮")
+            upload("C:\\Users\\Administrator\\Desktop\\FunPay\\资料\253\\身反.jpg")
+
+            self.wait_ele_visible(loc=Loc.bank_card_img_loc, img_desc="结算人银行卡正面图片上传按钮")
+            self.click_element(loc=Loc.bank_card_img_loc, img_desc="结算人银行卡正面图片上传按钮")
+            upload("C:\\Users\\Administrator\\Desktop\\FunPay\\资料\253\\银行卡.jpg")
 
             self.wait_ele_visible(loc=Loc.save_loc, img_desc="保存按钮")
             self.click_element(loc=Loc.save_loc, img_desc="保存按钮")
