@@ -22,22 +22,40 @@ import datetime
 
 
 # 打开浏览器，访问网址
-driver = webdriver.Chrome()
-driver.maximize_window()
-driver.get("http://test-agent.hczypay.com")
+# driver = webdriver.Chrome()
+# driver.maximize_window()
+# driver.get("http://test-agent.hczypay.com")
+#
+# loc = By.XPATH, "//input[@type='text']"
+# WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+# driver.find_element(*loc).send_keys("18627787716")
+#
+# loc = By.XPATH, "//input[@type='password']"
+# WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+# driver.find_element(*loc).send_keys("123456")
+#
+# loc = By.XPATH, "//span"
+# WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+# driver.find_element(*loc).click()
+#
+# time.sleep(8)
+#
+# driver.quit()
 
-loc = By.XPATH, "//input[@type='text']"
-WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-driver.find_element(*loc).send_keys("18627787716")
 
-loc = By.XPATH, "//input[@type='password']"
-WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-driver.find_element(*loc).send_keys("123456")
+from selenium import webdriver
+import time
 
-loc = By.XPATH, "//span"
-WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-driver.find_element(*loc).click()
+browser = webdriver.Chrome()
+browser.maximize_window()
 
-time.sleep(8)
+browser.get("https://www.oschina.net/blog")
 
-driver.quit()
+time.sleep(5)
+
+
+x = browser.get_window_size("current")
+print(x)
+# browser.execute_script(
+#     "window.scrollTo(0, document.body.scrollHeight); var lenOfPage=document.body.scrollHeight; return lenOfPage;")
+# time.sleep(3)

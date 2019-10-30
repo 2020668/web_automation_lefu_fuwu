@@ -73,6 +73,9 @@ class OpenAccountPage(BasePage):
 
             self.wait_ele_visible(loc=Loc.shop_type_loc, img_desc="商户类型选择框")
             self.click_element(loc=Loc.shop_type_loc, img_desc="商户类型选择框")
+
+            self.select_element(loc=Loc.shop_type_loc, text=shop_type, img_desc="商户类型选择框")
+
             self.wait_ele_visible(loc=shop_type_name, img_desc="商户类型")
             self.click_element(loc=shop_type_name, img_desc="商户类型")
 
@@ -92,6 +95,7 @@ class OpenAccountPage(BasePage):
             self.input_text(loc=Loc.address_input_loc, value=address, img_desc="详细地址输入框")
 
             self.wait_ele_visible(loc=Loc.rate_input_loc, img_desc="费率输入框")
+            self.double_click_element(loc=Loc.rate_input_loc, img_desc="费率输入框")
             self.input_text(loc=Loc.rate_input_loc, value=rate, img_desc="费率输入框")
 
             if pos is True:
@@ -99,9 +103,11 @@ class OpenAccountPage(BasePage):
                 self.click_element(loc=Loc.pos_loc, img_desc="pos机按钮")
 
                 self.wait_ele_visible(loc=Loc.debit_rate_input_loc, img_desc="借记卡费率输入框")
+                self.double_click_element(loc=Loc.debit_rate_input_loc, img_desc="借记卡费率输入框")
                 self.input_text(loc=Loc.debit_rate_input_loc, value=debit_card_rate, img_desc="借记卡费率输入框")
 
                 self.wait_ele_visible(loc=Loc.credit_rate_input_loc, img_desc="贷记卡费率输入框")
+                self.double_click_element(loc=Loc.credit_rate_input_loc, img_desc="贷记卡费率输入框")
                 self.input_text(loc=Loc.credit_rate_input_loc, value=credit_card_rate, img_desc="贷记卡费率输入框")
 
             else:

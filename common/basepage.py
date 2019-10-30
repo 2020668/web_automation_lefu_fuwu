@@ -13,6 +13,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.ui import Select
 import logging
 import time
 import os
@@ -100,11 +102,26 @@ class BasePage(object):
         ele = self._deal_element(loc, img_desc, timeout, frequency)
         # 操作
         try:
-            ele.click()        # 点击操作
+            ele.click()  # 点击操作
             logging.info("点击  {} 元素 {} 成功！".format(img_desc, loc))
         except:
             # 日志
             logging.exception("点击  {} 元素 {} 失败！".format(img_desc, loc))
+            # 截图
+            self.save_img(img_desc)
+            raise  # 抛出异常，让用例识别到异常将用例状态为失败。
+
+    # 双击元素
+    def double_click_element(self, loc, img_desc, timeout=30, frequency=0.5):
+        ele = self._deal_element(loc, img_desc, timeout, frequency)
+        ac = ActionChains(driver=self.driver)
+        # 操作
+        try:
+            ac.double_click(ele).perform()  # 双击操作
+            logging.info("双击  {} 元素 {} 成功！".format(img_desc, loc))
+        except:
+            # 日志
+            logging.exception("双击  {} 元素 {} 失败！".format(img_desc, loc))
             # 截图
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
@@ -122,9 +139,24 @@ class BasePage(object):
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
 
+    def select_element(self, loc, text, img_desc, timeout=30, frequency=0.5):
+        # ele = self._deal_element(loc, img_desc, timeout, frequency)
+        ele = self.driver.find_element_by_name("ul")
+        s = Select(ele)
+        # 操作
+        try:
+            s.select_by_visible_text(text=text)
+            logging.info("滑动到  {} 元素 {} 成功！".format(img_desc, text))
+        except:
+            # 日志
+            logging.exception("滑动到  {} 元素 {} 失败！".format(img_desc, text))
+            # 截图
+            self.save_img(img_desc)
+            raise  # 抛出异常，让用例识别到异常将用例状态为失败。
+
     # 获取元素的属性值
     def get_element_attribute(self, loc, attr_name, img_desc, timeout=30, frequency=0.5):
-        ele = self._deal_element(loc, img_desc, timeout, frequency,wait_type="precence")
+        ele = self._deal_element(loc, img_desc, timeout, frequency, wait_type="precence")
         # 获取属性
         try:
             attr_value = ele.get_attribute(attr_name)
@@ -255,14 +287,18 @@ class BasePage(object):
         :return: None
         """
         size = self.get_device_size()
-        if direct.lower() == "up": # 向上滑动
-            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.9, size["width"] * 0.5, size["height"] * 0.1, duration)
-        elif direct.lower() == "down": # 向下滑动
-            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.1, size["width"] * 0.5, size["height"] * 0.9, duration)
+        if direct.lower() == "up":  # 向上滑动
+            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.9, size["width"] * 0.5, size["height"] * 0.1,
+                              duration)
+        elif direct.lower() == "down":  # 向下滑动
+            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.1, size["width"] * 0.5, size["height"] * 0.9,
+                              duration)
         elif direct.lower() == "left":  # 向左滑动
-            self.driver.swipe(size["width"] * 0.9, size["height"] * 0.5, size["width"] * 0.1, size["height"] * 0.5, duration)
-        elif direct.lower() == "right": # 向右滑动
-            self.driver.swipe(size["width"] * 0.1, size["height"] * 0.5, size["width"] * 0.9, size["height"] * 0.5, duration)
+            self.driver.swipe(size["width"] * 0.9, size["height"] * 0.5, size["width"] * 0.1, size["height"] * 0.5,
+                              duration)
+        elif direct.lower() == "right":  # 向右滑动
+            self.driver.swipe(size["width"] * 0.1, size["height"] * 0.5, size["width"] * 0.9, size["height"] * 0.5,
+                              duration)
 
     # 获取当前页面源码
     def get_page_source(self):
@@ -273,7 +309,6 @@ class BasePage(object):
             logging.exception("获取页面源码失败！")
             self.save_img("获取页面源码失败")
             raise
-
 
 # class BasePage(object):
 #
@@ -422,7 +457,7 @@ class BasePage(object):
 #         else:
 #             logging.exception("切换到 {} 的iframe: {} 成功！".format(img_desc, refrence))
 
-    # alert切换
-    # 上传
-    # 下拉列表Select
-    # window切换 === 先保留。学习完robot的切换之后，再来封装。
+# alert切换
+# 上传
+# 下拉列表Select
+# window切换 === 先保留。学习完robot的切换之后，再来封装。
