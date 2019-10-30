@@ -14,7 +14,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import Select
 import logging
 import time
 import os
@@ -100,6 +99,7 @@ class BasePage(object):
     # 点击元素
     def click_element(self, loc, img_desc, timeout=30, frequency=0.5):
         ele = self._deal_element(loc, img_desc, timeout, frequency)
+        time.sleep(1)
         # 操作
         try:
             ele.click()  # 点击操作
@@ -139,20 +139,48 @@ class BasePage(object):
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
 
-    def select_element(self, loc, text, img_desc, timeout=30, frequency=0.5):
+    def select_element(self, loc, img_desc, timeout=30, frequency=0.5):
         # ele = self._deal_element(loc, img_desc, timeout, frequency)
-        ele = self.driver.find_element_by_name("ul")
-        s = Select(ele)
+        ele = self.driver.find_element(*loc)
         # 操作
         try:
-            s.select_by_visible_text(text=text)
-            logging.info("滑动到  {} 元素 {} 成功！".format(img_desc, text))
+            ActionChains(self.driver).move_to_element(ele).perform()
+            logging.info("滑动到  {} 元素 {} 成功！".format(img_desc, loc))
         except:
             # 日志
-            logging.exception("滑动到  {} 元素 {} 失败！".format(img_desc, text))
+            logging.exception("滑动到  {} 元素 {} 失败！".format(img_desc, loc))
             # 截图
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
+
+    def scroll_up_down(self, img_desc):
+        # ele = self._deal_element(loc, img_desc, timeout, frequency)
+        # 操作
+        try:
+            # self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight); ")
+            self.driver.execute_script("window.scrollTo(0, 650); ")
+            logging.info("滑动到  {} 元素 成功！".format(img_desc))
+        except:
+            # 日志
+            logging.exception("滑动到  {} 元素 失败！".format(img_desc))
+            # 截图
+            self.save_img(img_desc)
+            raise  # 抛出异常，让用例识别到异常将用例状态为失败。
+        time.sleep(1)
+
+    def scroll_down(self, img_desc):
+        # ele = self._deal_element(loc, img_desc, timeout, frequency)
+        # 操作
+        try:
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight); ")
+            logging.info("滑动到  {} 元素 成功！".format(img_desc))
+        except:
+            # 日志
+            logging.exception("滑动到  {} 元素 失败！".format(img_desc))
+            # 截图
+            self.save_img(img_desc)
+            raise  # 抛出异常，让用例识别到异常将用例状态为失败。
+        time.sleep(1)
 
     # 获取元素的属性值
     def get_element_attribute(self, loc, attr_name, img_desc, timeout=30, frequency=0.5):

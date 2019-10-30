@@ -60,3 +60,5 @@ class TestOpenAccount(object):
                                                   zhi_bank_name=data["zhi_bank_name"],
                                                   people_address=data["people_address"]
                                                   )
+
+        assert "提交审核成功" in OpenAccountPage(init_driver).get_open_status()

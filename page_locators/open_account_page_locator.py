@@ -98,7 +98,7 @@ class OpenAccountPageLocator(object):
     e_mail_input_loc = By.XPATH, "//input[@placeholder='请输入常用邮箱']"
 
     # 支付宝名称输入框
-    alipay_name_input_loc = By.XPATH, "//input[@placeholder='请输入支付宝账号']"
+    alipay_name_input_loc = By.XPATH, "//input[@placeholder='请输入支付宝名称']"
 
     # 支付宝账号输入框
     alipay_account_input_loc = By.XPATH, "//input[@placeholder='请输入支付宝账号']"
@@ -169,7 +169,12 @@ class OpenAccountPageLocator(object):
     # 保存按钮
     save_loc = By.XPATH, "//button[@class='btn btn-save ivu-btn ivu-btn-warning']//span[text()='保存']"
 
+    # 提交审核
+    submit_audit_button_loc = By.XPATH, "//span[text()='提交审核']//parent::button" \
+                                        "[@class='btn btn-save ivu-btn ivu-btn-warning']"
 
+    # 确定
+    audit_sure_button_loc = By.XPATH, "//button[@class='ivu-btn ivu-btn-primary']//span[text()='确定']"
 
-
-
+    # 状态
+    status_loc = By.XPATH, "//p[@class='success']"

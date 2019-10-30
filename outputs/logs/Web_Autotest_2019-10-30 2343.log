@@ -1,0 +1,42 @@
+ Wed, 30 Oct 2019 23:43:28  INFO basepage.py wait_ele_visible [ line:44 ] 等待 登陆页面_输入用户名  元素  ('xpath', "//input[@type='text']") 可见成功。耗时：0:00:00.037979
+ Wed, 30 Oct 2019 23:43:28  INFO basepage.py get_element [ line:81 ] 查找  登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 成功！
+ Wed, 30 Oct 2019 23:43:28  INFO basepage.py input_text [ line:134 ] 在 登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 上输入文本值：18627787716 成功！
+ Wed, 30 Oct 2019 23:43:28  INFO basepage.py wait_ele_visible [ line:44 ] 等待 登陆页面_输入密码  元素  ('xpath', "//input[@type='password']") 可见成功。耗时：0:00:00.028917
+ Wed, 30 Oct 2019 23:43:29  INFO basepage.py get_element [ line:81 ] 查找  登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 成功！
+ Wed, 30 Oct 2019 23:43:29  INFO basepage.py input_text [ line:134 ] 在 登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 上输入文本值：123456 成功！
+ Wed, 30 Oct 2019 23:43:29  INFO basepage.py wait_ele_exists [ line:59 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 存在成功。耗时：0:00:00.012882
+ Wed, 30 Oct 2019 23:43:29  INFO basepage.py wait_ele_visible [ line:44 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 可见成功。耗时：0:00:00.019947
+ Wed, 30 Oct 2019 23:43:29  INFO basepage.py get_element [ line:81 ] 查找  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Wed, 30 Oct 2019 23:43:30  INFO basepage.py click_element [ line:106 ] 点击  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Wed, 30 Oct 2019 23:43:33  INFO basepage.py wait_ele_visible [ line:44 ] 等待 首页_开户进件按钮  元素  ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 可见成功。耗时：0:00:01.139464
+ Wed, 30 Oct 2019 23:43:33  INFO basepage.py wait_ele_visible [ line:44 ] 等待 首页_开户进件按钮  元素  ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 可见成功。耗时：0:00:00.030918
+ Wed, 30 Oct 2019 23:43:33  INFO basepage.py get_element [ line:81 ] 查找  首页_开户进件按钮 元素 ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 成功！
+ Wed, 30 Oct 2019 23:43:34  INFO basepage.py click_element [ line:106 ] 点击  首页_开户进件按钮 元素 ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 成功！
+ Wed, 30 Oct 2019 23:43:35  DEBUG __init__.py initialize [ line:111 ] Building prefix dict from the default dictionary ...
+ Wed, 30 Oct 2019 23:43:35  DEBUG __init__.py initialize [ line:131 ] Loading model from cache C:\Users\keen\AppData\Local\Temp\jieba.cache
+ Wed, 30 Oct 2019 23:43:36  DEBUG __init__.py initialize [ line:163 ] Loading model cost 0.854 seconds.
+ Wed, 30 Oct 2019 23:43:36  DEBUG __init__.py initialize [ line:164 ] Prefix dict has been built succesfully.
+ Wed, 30 Oct 2019 23:43:36  INFO basepage.py wait_ele_visible [ line:44 ] 等待 手机号码输入框  元素  ('xpath', "//input[@placeholder='请输入商户的手机号码']") 可见成功。耗时：0:00:00.024942
+ Wed, 30 Oct 2019 23:43:36  INFO basepage.py wait_ele_visible [ line:44 ] 等待 手机号码输入框  元素  ('xpath', "//input[@placeholder='请输入商户的手机号码']") 可见成功。耗时：0:00:00.015916
+ Wed, 30 Oct 2019 23:43:36  INFO basepage.py get_element [ line:81 ] 查找  手机号码输入框 元素 ('xpath', "//input[@placeholder='请输入商户的手机号码']") 成功！
+ Wed, 30 Oct 2019 23:43:36  INFO basepage.py input_text [ line:134 ] 在 手机号码输入框 元素 ('xpath', "//input[@placeholder='请输入商户的手机号码']") 上输入文本值：18911110077 成功！
+ Wed, 30 Oct 2019 23:43:36  INFO basepage.py wait_ele_visible [ line:44 ] 等待 下一步按钮  元素  ('xpath', "//span[text()= ('下一步')]") 可见成功。耗时：0:00:00.021941
+ Wed, 30 Oct 2019 23:43:36  INFO basepage.py wait_ele_visible [ line:44 ] 等待 下一步按钮  元素  ('xpath', "//span[text()= ('下一步')]") 可见成功。耗时：0:00:00.017951
+ Wed, 30 Oct 2019 23:43:36  INFO basepage.py get_element [ line:81 ] 查找  下一步按钮 元素 ('xpath', "//span[text()= ('下一步')]") 成功！
+ Wed, 30 Oct 2019 23:43:37  INFO basepage.py click_element [ line:106 ] 点击  下一步按钮 元素 ('xpath', "//span[text()= ('下一步')]") 成功！
+ Wed, 30 Oct 2019 23:43:38  INFO basepage.py wait_ele_visible [ line:44 ] 等待 小微商户的选择按钮  元素  ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 可见成功。耗时：0:00:00.578477
+ Wed, 30 Oct 2019 23:43:38  INFO basepage.py wait_ele_visible [ line:44 ] 等待 小微商户的选择按钮  元素  ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 可见成功。耗时：0:00:00.042845
+ Wed, 30 Oct 2019 23:43:38  INFO basepage.py get_element [ line:81 ] 查找  小微商户的选择按钮 元素 ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 成功！
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py click_element [ line:106 ] 点击  小微商户的选择按钮 元素 ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 成功！
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户全称输入框  元素  ('xpath', "//input[@placeholder='请输入商户全称']") 可见成功。耗时：0:00:00.036902
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户全称输入框  元素  ('xpath', "//input[@placeholder='请输入商户全称']") 可见成功。耗时：0:00:00.022935
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py get_element [ line:81 ] 查找  商户全称输入框 元素 ('xpath', "//input[@placeholder='请输入商户全称']") 成功！
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py input_text [ line:134 ] 在 商户全称输入框 元素 ('xpath', "//input[@placeholder='请输入商户全称']") 上输入文本值：长安同福客栈77 成功！
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户简称输入框  元素  ('xpath', "//input[@placeholder='请输入商户简称']") 可见成功。耗时：0:00:00.025928
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户简称输入框  元素  ('xpath', "//input[@placeholder='请输入商户简称']") 可见成功。耗时：0:00:00.019912
+ Wed, 30 Oct 2019 23:43:39  INFO basepage.py get_element [ line:81 ] 查找  商户简称输入框 元素 ('xpath', "//input[@placeholder='请输入商户简称']") 成功！
+ Wed, 30 Oct 2019 23:43:40  INFO basepage.py input_text [ line:134 ] 在 商户简称输入框 元素 ('xpath', "//input[@placeholder='请输入商户简称']") 上输入文本值：同福客栈77 成功！
+ Wed, 30 Oct 2019 23:43:41  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户类型选择框  元素  ('xpath', "//span[@class='ivu-select-placeholder']") 可见成功。耗时：0:00:01.130351
+ Wed, 30 Oct 2019 23:43:41  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户类型选择框  元素  ('xpath', "//span[@class='ivu-select-placeholder']") 可见成功。耗时：0:00:00.086775
+ Wed, 30 Oct 2019 23:43:41  INFO basepage.py get_element [ line:81 ] 查找  商户类型选择框 元素 ('xpath', "//span[@class='ivu-select-placeholder']") 成功！
+ Wed, 30 Oct 2019 23:43:42  INFO basepage.py click_element [ line:106 ] 点击  商户类型选择框 元素 ('xpath', "//span[@class='ivu-select-placeholder']") 成功！

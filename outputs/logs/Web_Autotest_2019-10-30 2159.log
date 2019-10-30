@@ -1,0 +1,96 @@
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py wait_ele_visible [ line:44 ] 等待 登陆页面_输入用户名  元素  ('xpath', "//input[@type='text']") 可见成功。耗时：0:00:00.124659
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py get_element [ line:81 ] 查找  登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 成功！
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py input_text [ line:133 ] 在 登陆页面_输入用户名 元素 ('xpath', "//input[@type='text']") 上输入文本值：18627787716 成功！
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py wait_ele_visible [ line:44 ] 等待 登陆页面_输入密码  元素  ('xpath', "//input[@type='password']") 可见成功。耗时：0:00:00.030733
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py get_element [ line:81 ] 查找  登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 成功！
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py input_text [ line:133 ] 在 登陆页面_输入密码 元素 ('xpath', "//input[@type='password']") 上输入文本值：123456 成功！
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py wait_ele_exists [ line:59 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 存在成功。耗时：0:00:00.015957
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py wait_ele_visible [ line:44 ] 等待 登陆页面_点击登陆按钮  元素  ('xpath', '//span') 可见成功。耗时：0:00:00.022895
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py get_element [ line:81 ] 查找  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Wed, 30 Oct 2019 21:59:44  INFO basepage.py click_element [ line:105 ] 点击  登陆页面_点击登陆按钮 元素 ('xpath', '//span') 成功！
+ Wed, 30 Oct 2019 21:59:47  INFO basepage.py wait_ele_visible [ line:44 ] 等待 首页_开户进件按钮  元素  ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 可见成功。耗时：0:00:00.600023
+ Wed, 30 Oct 2019 21:59:47  INFO basepage.py wait_ele_visible [ line:44 ] 等待 首页_开户进件按钮  元素  ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 可见成功。耗时：0:00:00.058868
+ Wed, 30 Oct 2019 21:59:47  INFO basepage.py get_element [ line:81 ] 查找  首页_开户进件按钮 元素 ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 成功！
+ Wed, 30 Oct 2019 21:59:47  INFO basepage.py click_element [ line:105 ] 点击  首页_开户进件按钮 元素 ('xpath', "//img[@src='/dist/9cd2c604c1914c2a0ac3f2f5cffde56c.png']") 成功！
+ Wed, 30 Oct 2019 21:59:48  DEBUG __init__.py initialize [ line:111 ] Building prefix dict from the default dictionary ...
+ Wed, 30 Oct 2019 21:59:48  DEBUG __init__.py initialize [ line:131 ] Loading model from cache C:\Users\keen\AppData\Local\Temp\jieba.cache
+ Wed, 30 Oct 2019 21:59:49  DEBUG __init__.py initialize [ line:163 ] Loading model cost 1.054 seconds.
+ Wed, 30 Oct 2019 21:59:49  DEBUG __init__.py initialize [ line:164 ] Prefix dict has been built succesfully.
+ Wed, 30 Oct 2019 21:59:49  INFO basepage.py wait_ele_visible [ line:44 ] 等待 手机号码输入框  元素  ('xpath', "//input[@placeholder='请输入商户的手机号码']") 可见成功。耗时：0:00:00.030918
+ Wed, 30 Oct 2019 21:59:49  INFO basepage.py wait_ele_visible [ line:44 ] 等待 手机号码输入框  元素  ('xpath', "//input[@placeholder='请输入商户的手机号码']") 可见成功。耗时：0:00:00.035711
+ Wed, 30 Oct 2019 21:59:49  INFO basepage.py get_element [ line:81 ] 查找  手机号码输入框 元素 ('xpath', "//input[@placeholder='请输入商户的手机号码']") 成功！
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py input_text [ line:133 ] 在 手机号码输入框 元素 ('xpath', "//input[@placeholder='请输入商户的手机号码']") 上输入文本值：18911110069 成功！
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py wait_ele_visible [ line:44 ] 等待 下一步按钮  元素  ('xpath', "//span[text()= ('下一步')]") 可见成功。耗时：0:00:00.026947
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py wait_ele_visible [ line:44 ] 等待 下一步按钮  元素  ('xpath', "//span[text()= ('下一步')]") 可见成功。耗时：0:00:00.015585
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py get_element [ line:81 ] 查找  下一步按钮 元素 ('xpath', "//span[text()= ('下一步')]") 成功！
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py click_element [ line:105 ] 点击  下一步按钮 元素 ('xpath', "//span[text()= ('下一步')]") 成功！
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py wait_ele_visible [ line:44 ] 等待 小微商户的选择按钮  元素  ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 可见成功。耗时：0:00:00.571861
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py wait_ele_visible [ line:44 ] 等待 小微商户的选择按钮  元素  ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 可见成功。耗时：0:00:00.022939
+ Wed, 30 Oct 2019 21:59:50  INFO basepage.py get_element [ line:81 ] 查找  小微商户的选择按钮 元素 ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 成功！
+ Wed, 30 Oct 2019 21:59:51  INFO basepage.py click_element [ line:105 ] 点击  小微商户的选择按钮 元素 ('xpath', "//p[text()=('小微商户')]//following-sibling::p[text()='选择']") 成功！
+ Wed, 30 Oct 2019 21:59:51  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户全称输入框  元素  ('xpath', "//input[@placeholder='请输入商户全称']") 可见成功。耗时：0:00:00.063314
+ Wed, 30 Oct 2019 21:59:51  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户全称输入框  元素  ('xpath', "//input[@placeholder='请输入商户全称']") 可见成功。耗时：0:00:00.025789
+ Wed, 30 Oct 2019 21:59:51  INFO basepage.py get_element [ line:81 ] 查找  商户全称输入框 元素 ('xpath', "//input[@placeholder='请输入商户全称']") 成功！
+ Wed, 30 Oct 2019 21:59:53  INFO basepage.py input_text [ line:133 ] 在 商户全称输入框 元素 ('xpath', "//input[@placeholder='请输入商户全称']") 上输入文本值：长安同福客栈69 成功！
+ Wed, 30 Oct 2019 21:59:53  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户简称输入框  元素  ('xpath', "//input[@placeholder='请输入商户简称']") 可见成功。耗时：0:00:00.143895
+ Wed, 30 Oct 2019 21:59:54  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户简称输入框  元素  ('xpath', "//input[@placeholder='请输入商户简称']") 可见成功。耗时：0:00:00.185083
+ Wed, 30 Oct 2019 21:59:54  INFO basepage.py get_element [ line:81 ] 查找  商户简称输入框 元素 ('xpath', "//input[@placeholder='请输入商户简称']") 成功！
+ Wed, 30 Oct 2019 21:59:54  INFO basepage.py input_text [ line:133 ] 在 商户简称输入框 元素 ('xpath', "//input[@placeholder='请输入商户简称']") 上输入文本值：同福客栈69 成功！
+ Wed, 30 Oct 2019 21:59:54  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户类型选择框  元素  ('xpath', "//span[@class='ivu-select-placeholder']") 可见成功。耗时：0:00:00.096589
+ Wed, 30 Oct 2019 21:59:54  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户类型选择框  元素  ('xpath', "//span[@class='ivu-select-placeholder']") 可见成功。耗时：0:00:00.175790
+ Wed, 30 Oct 2019 21:59:54  INFO basepage.py get_element [ line:81 ] 查找  商户类型选择框 元素 ('xpath', "//span[@class='ivu-select-placeholder']") 成功！
+ Wed, 30 Oct 2019 21:59:55  INFO basepage.py click_element [ line:105 ] 点击  商户类型选择框 元素 ('xpath', "//span[@class='ivu-select-placeholder']") 成功！
+ Wed, 30 Oct 2019 21:59:55  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户类型  元素  ('xpath', "//li[text()='医疗健康']") 可见成功。耗时：0:00:00.175220
+ Wed, 30 Oct 2019 21:59:55  INFO basepage.py get_element [ line:81 ] 查找  商户类型 元素 ('xpath', "//li[text()='医疗健康']") 成功！
+ Wed, 30 Oct 2019 21:59:55  INFO basepage.py select_element [ line:146 ] 滑动到  商户类型 元素 ('xpath', "//li[text()='医疗健康']") 成功！
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户类型  元素  ('xpath', "//li[text()='医疗健康']") 可见成功。耗时：0:00:00.131677
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户类型  元素  ('xpath', "//li[text()='医疗健康']") 可见成功。耗时：0:00:00.162781
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py get_element [ line:81 ] 查找  商户类型 元素 ('xpath', "//li[text()='医疗健康']") 成功！
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py click_element [ line:105 ] 点击  商户类型 元素 ('xpath', "//li[text()='医疗健康']") 成功！
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户地区选择框  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//div[@class='ivu-cascader-label']") 可见成功。耗时：0:00:00.072949
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py wait_ele_visible [ line:44 ] 等待 商户地区选择框  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//div[@class='ivu-cascader-label']") 可见成功。耗时：0:00:00.045317
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py get_element [ line:81 ] 查找  商户地区选择框 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//div[@class='ivu-cascader-label']") 成功！
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py click_element [ line:105 ] 点击  商户地区选择框 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//div[@class='ivu-cascader-label']") 成功！
+ Wed, 30 Oct 2019 21:59:56  INFO basepage.py wait_ele_visible [ line:44 ] 等待 选择省份  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//li[@class='ivu-cascader-menu-item' and contains(text(),'内蒙古自治区')]") 可见成功。耗时：0:00:00.113946
+ Wed, 30 Oct 2019 21:59:57  INFO basepage.py wait_ele_visible [ line:44 ] 等待 选择省份  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//li[@class='ivu-cascader-menu-item' and contains(text(),'内蒙古自治区')]") 可见成功。耗时：0:00:00.271128
+ Wed, 30 Oct 2019 21:59:57  INFO basepage.py get_element [ line:81 ] 查找  选择省份 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//li[@class='ivu-cascader-menu-item' and contains(text(),'内蒙古自治区')]") 成功！
+ Wed, 30 Oct 2019 21:59:57  INFO basepage.py click_element [ line:105 ] 点击  选择省份 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//li[@class='ivu-cascader-menu-item' and contains(text(),'内蒙古自治区')]") 成功！
+ Wed, 30 Oct 2019 21:59:57  INFO basepage.py wait_ele_visible [ line:44 ] 等待 选择市  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'呼和浩特市') and @class='ivu-cascader-menu-item']") 可见成功。耗时：0:00:00.093102
+ Wed, 30 Oct 2019 21:59:57  INFO basepage.py wait_ele_visible [ line:44 ] 等待 选择市  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'呼和浩特市') and @class='ivu-cascader-menu-item']") 可见成功。耗时：0:00:00.088028
+ Wed, 30 Oct 2019 21:59:57  INFO basepage.py get_element [ line:81 ] 查找  选择市 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'呼和浩特市') and @class='ivu-cascader-menu-item']") 成功！
+ Wed, 30 Oct 2019 21:59:57  INFO basepage.py click_element [ line:105 ] 点击  选择市 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'呼和浩特市') and @class='ivu-cascader-menu-item']") 成功！
+ Wed, 30 Oct 2019 21:59:58  INFO basepage.py wait_ele_visible [ line:44 ] 等待 选择区  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'新城区') and @class='ivu-cascader-menu-item']") 可见成功。耗时：0:00:00.291849
+ Wed, 30 Oct 2019 21:59:58  INFO basepage.py wait_ele_visible [ line:44 ] 等待 选择区  元素  ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'新城区') and @class='ivu-cascader-menu-item']") 可见成功。耗时：0:00:00.179557
+ Wed, 30 Oct 2019 21:59:58  INFO basepage.py get_element [ line:81 ] 查找  选择区 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'新城区') and @class='ivu-cascader-menu-item']") 成功！
+ Wed, 30 Oct 2019 21:59:59  INFO basepage.py click_element [ line:105 ] 点击  选择区 元素 ('xpath', "//label[text()='商户地区']//following-sibling::*//li[contains(text(),'新城区') and @class='ivu-cascader-menu-item']") 成功！
+ Wed, 30 Oct 2019 21:59:59  INFO basepage.py wait_ele_visible [ line:44 ] 等待 详细地址输入框  元素  ('xpath', "//input[@placeholder='请输入详细地址']") 可见成功。耗时：0:00:00.488164
+ Wed, 30 Oct 2019 21:59:59  INFO basepage.py wait_ele_visible [ line:44 ] 等待 详细地址输入框  元素  ('xpath', "//input[@placeholder='请输入详细地址']") 可见成功。耗时：0:00:00.162456
+ Wed, 30 Oct 2019 21:59:59  INFO basepage.py get_element [ line:81 ] 查找  详细地址输入框 元素 ('xpath', "//input[@placeholder='请输入详细地址']") 成功！
+ Wed, 30 Oct 2019 22:00:00  INFO basepage.py input_text [ line:133 ] 在 详细地址输入框 元素 ('xpath', "//input[@placeholder='请输入详细地址']") 上输入文本值：内蒙古呼和浩特市新城区特1号 成功！
+ Wed, 30 Oct 2019 22:00:01  INFO basepage.py wait_ele_visible [ line:44 ] 等待 费率输入框  元素  ('xpath', "//input[@placeholder='请输入商户费率']") 可见成功。耗时：0:00:00.205262
+ Wed, 30 Oct 2019 22:00:01  INFO basepage.py wait_ele_visible [ line:44 ] 等待 费率输入框  元素  ('xpath', "//input[@placeholder='请输入商户费率']") 可见成功。耗时：0:00:00.056778
+ Wed, 30 Oct 2019 22:00:01  INFO basepage.py get_element [ line:81 ] 查找  费率输入框 元素 ('xpath', "//input[@placeholder='请输入商户费率']") 成功！
+ Wed, 30 Oct 2019 22:00:01  INFO basepage.py double_click_element [ line:120 ] 双击  费率输入框 元素 ('xpath', "//input[@placeholder='请输入商户费率']") 成功！
+ Wed, 30 Oct 2019 22:00:01  INFO basepage.py wait_ele_visible [ line:44 ] 等待 费率输入框  元素  ('xpath', "//input[@placeholder='请输入商户费率']") 可见成功。耗时：0:00:00.041508
+ Wed, 30 Oct 2019 22:00:01  INFO basepage.py get_element [ line:81 ] 查找  费率输入框 元素 ('xpath', "//input[@placeholder='请输入商户费率']") 成功！
+ Wed, 30 Oct 2019 22:00:02  INFO basepage.py input_text [ line:133 ] 在 费率输入框 元素 ('xpath', "//input[@placeholder='请输入商户费率']") 上输入文本值：0.45 成功！
+ Wed, 30 Oct 2019 22:00:02  INFO basepage.py scroll_up_down [ line:159 ] 滑动到  滑动一页 元素 成功！
+ Wed, 30 Oct 2019 22:00:02  INFO basepage.py wait_ele_visible [ line:44 ] 等待 pos机按钮  元素  ('xpath', "//span[text()='关闭']") 可见成功。耗时：0:00:00.234210
+ Wed, 30 Oct 2019 22:00:02  INFO basepage.py wait_ele_visible [ line:44 ] 等待 pos机按钮  元素  ('xpath', "//span[text()='关闭']") 可见成功。耗时：0:00:00.108199
+ Wed, 30 Oct 2019 22:00:02  INFO basepage.py get_element [ line:81 ] 查找  pos机按钮 元素 ('xpath', "//span[text()='关闭']") 成功！
+ Wed, 30 Oct 2019 22:00:02  ERROR basepage.py click_element [ line:108 ] 点击  pos机按钮 元素 ('xpath', "//span[text()='关闭']") 失败！
+Traceback (most recent call last):
+  File "C:\Users\keen\PycharmProjects\web_automation_lefu_fuwu\common\basepage.py", line 104, in click_element
+    ele.click()  # 点击操作
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (1048, 6). Other element would receive the click: <div class="layout-nav">...</div>
+  (Session info: chrome=78.0.3887.7)
+
+ Wed, 30 Oct 2019 22:00:03  INFO basepage.py save_img [ line:229 ] 截图成功，截图存放在：C:\Users\keen\PycharmProjects\web_automation_lefu_fuwu\outputs/imgs\pos机按钮_2019-10-30 22_00_02.png

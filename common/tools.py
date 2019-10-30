@@ -16,12 +16,13 @@ E-mail:keen2020@outlook.com
 import time
 import win32gui
 import win32con
-import re
-import jieba
 import cpca
+import logging
+from common import logger
 
 
 def upload(file_path, browser_type="chrome"):
+    time.sleep(1)
     if browser_type == "chrome":
         title = "打开"
     else:
@@ -40,6 +41,8 @@ def upload(file_path, browser_type="chrome"):
     # 往编辑当中输入文件路径
     win32gui.SendMessage(edit, win32con.WM_SETTEXT, None, file_path)     # 发送文件路径
     win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)      # 点击打开按钮
+
+    logging.info("上传图片 {} 成功".format(file_path))
 
 
 # 输入地址,自动获取省市区
