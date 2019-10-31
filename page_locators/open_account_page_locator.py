@@ -46,6 +46,9 @@ class OpenAccountPageLocator(object):
     # 企业对私 结算非法人
     qiye_geti_different_loc = By.XPATH, "//p[text()=('企业对私-结算非法人')]//following-sibling::p[text()='选择']"
 
+    # 信用代码
+    credit_code_input_loc = By.XPATH, "//input[@placeholder='请输入营业执照统一信用代码']"
+
     # 商户全称输入框
     shop_name_input_loc = By.XPATH, "//input[@placeholder='请输入商户全称']"
 
@@ -81,6 +84,12 @@ class OpenAccountPageLocator(object):
 
     # pos机按钮
     pos_loc = By.XPATH, "//span[text()='关闭']"
+
+    # 法人姓名输入框
+    corporate_name_input_loc = By.XPATH, "//input[@placeholder='请输入法人姓名']"
+
+    # 法人身份证号输入框
+    corporate_id_input_loc = By.XPATH, "//input[@placeholder='请输入法人身份证号']"
 
     # 借记卡费率输入框
     debit_rate_input_loc = By.XPATH, "//input[@placeholder='请输入借记卡费率']"
@@ -145,8 +154,11 @@ class OpenAccountPageLocator(object):
     # 持卡人地址输入框
     card_user_address_input_loc = By.XPATH, "//input[@placeholder='请输入持卡人地址']"
 
-    # 店铺门头照按钮
+    # 结算人站店铺门头照上传按钮
     shop_head_img_loc = By.XPATH, "//p[text()='结算人站店铺门头照']//preceding-sibling::*//img[contains(@src,'png')]"
+
+    # 门头照上传
+    shop_head_person_same_img_loc = By.XPATH, "//p[text()='店铺门头照片']//preceding-sibling::*//img[contains(@src,'png')]"
 
     # 店内照片按钮
     shop_inner_img_loc = By.XPATH, "//p[text()='店内照片']//preceding-sibling::*//img[contains(@src,'png')]"
@@ -157,17 +169,32 @@ class OpenAccountPageLocator(object):
     # 手持身份证按钮
     hand_card_img_loc = By.XPATH, "//p[text()='手持身份证照片']//preceding-sibling::*//img[contains(@src,'png')]"
 
+    # 营业执照照片上传按钮
+    business_license_loc = By.XPATH, "//p[text()='营业执照照片']//preceding-sibling::*//img[contains(@src,'png')]"
+
     # 结算人身份证人像面
     person_face_img_loc = By.XPATH, "//p[text()='结算人身份证人像面']//preceding-sibling::*//img[contains(@src,'png')]"
+
+    # 法人身份证人像面
+    corporate_face_img_loc = By.XPATH, "//p[text()='法人身份证人像面']//preceding-sibling::*//img[contains(@src,'png')]"
 
     # 结算人身份证国徽面
     person_emblem_img_loc = By.XPATH, "//p[text()='结算人身份证国徽面']//preceding-sibling::*//img[contains(@src,'png')]"
 
+    # 法人身份证国徽面
+    corporate_emblem_img_loc = By.XPATH, "//p[text()='法人身份证国徽面']//preceding-sibling::*//img[contains(@src,'png')]"
+
     # 结算人银行卡正面照片
     bank_card_img_loc = By.XPATH, "//p[text()='结算人银行卡正面照片']//preceding-sibling::*//img[contains(@src,'png')]"
 
+    # 法人银行卡正面照片
+    corporate_bank_card_img_loc = By.XPATH, "//p[text()='法人银行卡正面照片']//preceding-sibling::*//img[contains(@src,'png')]"
+
     # 保存按钮
     save_loc = By.XPATH, "//button[@class='btn btn-save ivu-btn ivu-btn-warning']//span[text()='保存']"
+
+    # 个体工商户结算同法人的保存按钮
+    person_same_save_loc = By.XPATH, "//span[text()='保存']//parent::button[@class='btn btn-save ivu-btn ivu-btn-warning']"
 
     # 提交审核
     submit_audit_button_loc = By.XPATH, "//span[text()='提交审核']//parent::button" \

@@ -126,6 +126,20 @@ class BasePage(object):
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
 
+    # 双击元素
+    def clean_element_text(self, loc, img_desc):
+        ele = self.driver.find_element(*loc)
+        # 操作
+        try:
+            ele.clear()  # 清除文本操作
+            logging.info("清除  {} 元素的 文本 {} 成功！".format(img_desc, loc))
+        except:
+            # 日志
+            logging.exception("清除  {} 元素 的文本 {} 失败！".format(img_desc, loc))
+            # 截图
+            self.save_img(img_desc)
+            raise  # 抛出异常，让用例识别到异常将用例状态为失败。
+
     def input_text(self, loc, value, img_desc, timeout=30, frequency=0.5):
         ele = self._deal_element(loc, img_desc, timeout, frequency)
         # 操作
@@ -154,6 +168,7 @@ class BasePage(object):
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
 
     def scroll_up_down(self, img_desc):
+        time.sleep(1)
         # ele = self._deal_element(loc, img_desc, timeout, frequency)
         # 操作
         try:
