@@ -54,9 +54,9 @@ class OpenAccountPage(BasePage):
         bank_address_district_loc = By.XPATH, "//label[text()='开户地址']//following-sibling::*//li[contains(text(),'{}')" \
                                               " and @class='ivu-cascader-menu-item']".format(bank_district)
 
-        base_path = "C:\\Users\\keen\\Desktop\\FunPay\\资料\\253"
+        # base_path = "C:\\Users\\keen\\Desktop\\FunPay\\资料\\253"
 
-        # base_path = "C:\\Users\\Administrator\\Desktop\\FunPay\\资料\\253"
+        base_path = "C:\\Users\\Administrator\\Desktop\\FunPay\\资料\\253"
 
         self.wait_ele_visible(loc=Loc.phone_input_loc, img_desc="手机号码输入框")
         self.input_text(loc=Loc.phone_input_loc, value=account_phone, img_desc="手机号码输入框")

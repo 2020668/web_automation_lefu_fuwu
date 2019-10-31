@@ -13,12 +13,12 @@ E-mail:keen2020@outlook.com
 """
 
 success_data = [
-    {"account_phone": "18911110080",
+    {"account_phone": "18911110082",
      "msg_code": "123456",
      "jy_type": "小微商户",
      "credit_code": "None",
-     "shop_name": "长安同福客栈80",
-     "shop_nickname": "同福客栈80",
+     "shop_name": "长安同福客栈82",
+     "shop_nickname": "同福客栈82",
      "shop_type": "医疗健康",
      "area": "内蒙古呼和浩特市新城区",
      "address": "内蒙古呼和浩特市新城区特1号",
