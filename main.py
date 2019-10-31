@@ -9,6 +9,5 @@ E-mail:keen2020@outlook.com
 """
 
 import pytest
-
 if __name__ == '__main__':
     pytest.main(["-s", "-v", "-m", "open"])
