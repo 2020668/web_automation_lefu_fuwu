@@ -184,6 +184,9 @@ class OpenAccountPageLocator(object):
     # 法人身份证国徽面
     corporate_emblem_img_loc = By.XPATH, "//p[text()='法人身份证国徽面']//preceding-sibling::*//img[contains(@src,'png')]"
 
+    # 授权书
+    settlement_book_loc = By.XPATH, "//p[text()='授权结算书照片']//preceding-sibling::*//img[contains(@src,'png')]"
+
     # 结算人银行卡正面照片
     bank_card_img_loc = By.XPATH, "//p[text()='结算人银行卡正面照片']//preceding-sibling::*//img[contains(@src,'png')]"
 
