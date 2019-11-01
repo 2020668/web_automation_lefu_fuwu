@@ -35,7 +35,7 @@ class OpenAccountPageLocator(object):
     geti_same_loc = By.XPATH, "//p[text()=('个体工商户-结算同法人')]//following-sibling::p[text()='选择']"
 
     # 个体工商，结算非法人
-    geti_different_loc = By.XPATH, "//p[text()=('个体工商户-结算同法人')]//following-sibling::p[text()='选择']"
+    geti_different_loc = By.XPATH, "//p[text()=('个体工商户-结算非法人')]//following-sibling::p[text()='选择']"
 
     # 企业对公
     qiye_loc = By.XPATH, "//p[text()=('企业对公')]//following-sibling::p[text()='选择']"
@@ -145,6 +145,9 @@ class OpenAccountPageLocator(object):
     # 支行名称
     kh_zhi_bank_name_loc = By.XPATH, "//li[text()='中国工商银行北京新中街支行']"
 
+    # 企业名称输入框
+    company_name_input_loc = By.XPATH, "//input[@placeholder='请输入企业名称']"
+
     # 持卡人姓名输入框
     card_username_input_loc = By.XPATH, "//input[@placeholder='请输入持卡人姓名']"
 
@@ -153,6 +156,9 @@ class OpenAccountPageLocator(object):
 
     # 持卡人地址输入框
     card_user_address_input_loc = By.XPATH, "//input[@placeholder='请输入持卡人地址']"
+
+    # 法人地址输入框
+    corporate_address_input_loc = By.XPATH, "//input[@placeholder='请输入法人地址']"
 
     # 结算人站店铺门头照上传按钮
     shop_head_img_loc = By.XPATH, "//p[text()='结算人站店铺门头照']//preceding-sibling::*//img[contains(@src,'png')]"
@@ -186,6 +192,9 @@ class OpenAccountPageLocator(object):
 
     # 授权书
     settlement_book_loc = By.XPATH, "//p[text()='授权结算书照片']//preceding-sibling::*//img[contains(@src,'png')]"
+
+    # 开户许可证
+    open_permit_img_loc = By.XPATH, "//p[text()='开户许可证照片']//preceding-sibling::*//img[contains(@src,'png')]"
 
     # 结算人银行卡正面照片
     bank_card_img_loc = By.XPATH, "//p[text()='结算人银行卡正面照片']//preceding-sibling::*//img[contains(@src,'png')]"
