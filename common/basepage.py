@@ -499,8 +499,3 @@ class BasePage(object):
 #             raise
 #         else:
 #             logging.exception("切换到 {} 的iframe: {} 成功！".format(img_desc, refrence))
-
-# alert切换
-# 上传
-# 下拉列表Select
-# window切换 === 先保留。学习完robot的切换之后，再来封装。

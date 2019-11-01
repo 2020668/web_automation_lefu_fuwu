@@ -9,10 +9,6 @@ E-mail:keen2020@outlook.com
 """
 
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ec
-
 from page_locators.index_page_locator import IndexPageLocator as Loc
 
 

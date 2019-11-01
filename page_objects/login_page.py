@@ -10,7 +10,6 @@ E-mail:keen2020@outlook.com
 
 from common.basepage import BasePage
 from page_locators.login_page_locator import LoginPageLocator as Loc
-import time
 
 
 class LoginPage(BasePage):

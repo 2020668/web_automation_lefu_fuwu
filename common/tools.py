@@ -62,6 +62,3 @@ if __name__ == '__main__':
     province, city, area = address_match([demo])
     print(province, city, area)
 
-    # time.sleep(3)
-    # upload("C:\\Users\keen\\Documents\\Software Testing\\Python自动化\\作业\\1831\\12306.py")
-    # # upload("C:\\aow_drv.log")

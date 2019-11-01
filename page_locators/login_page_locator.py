@@ -29,4 +29,3 @@ class LoginPageLocator(object):
     # 登录成功的提示
     # login_info_loc = By.XPATH, "//div[@class='ivu-message-notice-content-text']"
     login_info_loc = By.XPATH, "//div[@class='ivu-message-notice-content']"
-
