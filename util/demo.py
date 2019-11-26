@@ -58,6 +58,6 @@ x = browser.get_window_size("current")
 print(x)
 browser.execute_script(
     "window.scrollTo(0, 600);")
-# browser.execute_script(
+# driver.execute_script(
 #     "window.scrollTo(0, document.body.scrollHeight); var lenOfPage=document.body.scrollHeight; return lenOfPage;")
 # time.sleep(3)

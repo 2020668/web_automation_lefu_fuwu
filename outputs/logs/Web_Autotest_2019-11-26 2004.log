@@ -1,0 +1,9 @@
+ Tue, 26 Nov 2019 20:05:05  INFO tapd.py <module> [ line:34 ] 用户名输入成功
+ Tue, 26 Nov 2019 20:05:05  INFO tapd.py <module> [ line:40 ] 面膜输入成功
+ Tue, 26 Nov 2019 20:05:07  INFO tapd.py <module> [ line:46 ] 点击登录按钮成功
+ Tue, 26 Nov 2019 20:05:10  INFO tapd.py <module> [ line:54 ] 点击所有的成功
+ Tue, 26 Nov 2019 20:05:11  INFO tapd.py <module> [ line:60 ] 点击我创建的成功
+ Tue, 26 Nov 2019 20:05:11  INFO tapd.py <module> [ line:66 ] 点击过滤按钮成功
+ Tue, 26 Nov 2019 20:05:11  INFO tapd.py <module> [ line:72 ] 点击已验证成功
+ Tue, 26 Nov 2019 20:05:13  INFO tapd.py <module> [ line:78 ] 点击过滤按钮成功
+ Tue, 26 Nov 2019 20:05:13  INFO tapd.py <module> [ line:87 ] 点击Bug标题成功
