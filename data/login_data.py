@@ -9,7 +9,7 @@ E-mail:keen2020@outlook.com
 """
 
 # 登录成功
-success_data = [{"user": "18627787716", "pwd": "123456", "username": "测试管理员294"}]
+success_data = [{"user": "18627787716", "pwd": "123456", "username": "测试管理员"}]
 
 # 手机号为空/密码为空/手机号格式不正确/非数字。。。。
 invalid_data = [

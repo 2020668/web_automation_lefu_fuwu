@@ -217,3 +217,4 @@ class OpenAccountPageLocator(object):
 
     # 状态
     status_loc = By.XPATH, "//p[@class='success']"
+

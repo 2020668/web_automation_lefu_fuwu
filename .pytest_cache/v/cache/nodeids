@@ -1,0 +1,4 @@
+[
+  "test_cases/test_login.py::TestLogin::test_login_success[data0]",
+  "test_cases/test_open_account.py::TestOpenAccount::test_open_account_success[data0]"
+]

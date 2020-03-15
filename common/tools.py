@@ -14,8 +14,8 @@ E-mail:keen2020@outlook.com
 
 
 import time
-import win32gui
-import win32con
+# import win32gui
+# import win32con
 import cpca
 import logging
 from common import logger

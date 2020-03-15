@@ -10,6 +10,7 @@ E-mail:keen2020@outlook.com
 
 
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
@@ -24,11 +25,11 @@ driver.get("https://www.baidu.com")
 
 loc = By.XPATH, "//input[@id='kw']"
 WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-driver.find_element(*loc).send_keys("Python")
+driver.find_element(*loc).send_keys("Python", Keys.ENTER)
 
-loc = By.XPATH, "//input[@id='su']"
-WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-driver.find_element(*loc).click()
+# loc = By.XPATH, "//input[@id='su']"
+# WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+# driver.find_element(*loc).click()
 
 
 time.sleep(8)

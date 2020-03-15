@@ -20,6 +20,7 @@ from data import login_data as ld
 @pytest.mark.usefixtures("init_driver")
 class TestLogin(object):
 
+    @pytest.mark.login
     @pytest.mark.parametrize("data", ld.success_data)
     def test_login_success(self, data, init_driver):
         # 用例 = 登陆页的登陆功能 - 首页的 检查用户昵称存在的功能

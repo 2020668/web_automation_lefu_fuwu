@@ -10,6 +10,7 @@ E-mail:keen2020@outlook.com
 
 from common.basepage import BasePage
 from page_locators.login_page_locator import LoginPageLocator as Loc
+import time
 
 
 class LoginPage(BasePage):
@@ -19,7 +20,7 @@ class LoginPage(BasePage):
         self.input_text(loc=Loc.pwd_loc, value=pwd, img_desc="登陆页面_输入密码")
         self.wait_ele_exists(loc=Loc.login_button_loc, img_desc="登陆页面_点击登陆按钮")
         self.click_element(loc=Loc.login_button_loc, img_desc="登陆页面_点击登陆按钮")
-        # time.sleep(5)
+        time.sleep(5)
 
     def get_form_error_info(self):
         return self.get_text(Loc.form_error_loc, "登陆页面_获取登陆表单的错误提示信息")

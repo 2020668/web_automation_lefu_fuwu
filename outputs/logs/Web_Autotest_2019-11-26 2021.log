@@ -1,7 +1,0 @@
- Tue, 26 Nov 2019 20:21:54  INFO tapd.py <module> [ line:35 ] 用户名输入成功
- Tue, 26 Nov 2019 20:21:54  INFO tapd.py <module> [ line:41 ] 密码输入成功
- Tue, 26 Nov 2019 20:21:56  INFO tapd.py <module> [ line:47 ] 点击登录按钮成功
- Tue, 26 Nov 2019 20:21:59  INFO tapd.py <module> [ line:55 ] 点击所有的成功
- Tue, 26 Nov 2019 20:22:00  INFO tapd.py <module> [ line:61 ] 点击我创建的成功
- Tue, 26 Nov 2019 20:22:00  INFO tapd.py <module> [ line:88 ] 点击Bug标题成功
- Tue, 26 Nov 2019 20:22:01  INFO tapd.py <module> [ line:93 ] 向下滑动成功

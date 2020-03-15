@@ -60,4 +60,5 @@ browser.execute_script(
     "window.scrollTo(0, 600);")
 # driver.execute_script(
 #     "window.scrollTo(0, document.body.scrollHeight); var lenOfPage=document.body.scrollHeight; return lenOfPage;")
-# time.sleep(3)
+time.sleep(3)
+browser.close()
